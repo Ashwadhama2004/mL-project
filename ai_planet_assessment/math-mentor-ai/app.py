@@ -91,6 +91,7 @@ def render_sidebar():
             "Input Mode",
             ["📝 Text", "🖼️ Image (OCR)", "🎤 Audio (ASR)"],
             index=0
+            key="input_mode_selectbox"
         )
         
         st.markdown("---")
