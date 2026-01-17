@@ -153,62 +153,88 @@ class ASRProcessor:
             Dictionary with transcript and confidence
         """
         try:
-            from utils.llm_client import LLMClient
             import google.generativeai as genai
             import os
             from dotenv import load_dotenv
             
             load_dotenv()
-            api_key = os.getenv("GOOGLE_API_KEY")
+            
+            # Try Streamlit secrets first, then env
+            api_key = None
+            try:
+                import streamlit as st
+                if hasattr(st, 'secrets') and 'api_keys' in st.secrets:
+                    api_key = st.secrets.api_keys.get("GOOGLE_API_KEY")
+            except Exception:
+                pass
             
             if not api_key:
-                return {"success": False, "error": "No API key"}
+                api_key = os.getenv("GOOGLE_API_KEY")
+            
+            if not api_key:
+                return {"success": False, "error": "No API key found"}
             
             genai.configure(api_key=api_key)
             
-            # Create a temp file to save audio
-            temp_file = tempfile.NamedTemporaryFile(suffix=".wav", delete=False)
-            temp_file.write(audio_bytes)
-            temp_file.close()
+            # Detect audio format from bytes
+            mime_type = "audio/webm"  # Default for st.audio_input
+            if audio_bytes[:4] == b'RIFF':
+                mime_type = "audio/wav"
+            elif audio_bytes[:3] == b'ID3' or audio_bytes[:2] == b'\xff\xfb':
+                mime_type = "audio/mp3"
+            elif audio_bytes[:4] == b'\x1aE\xdf\xa3':  # WebM/Matroska signature
+                mime_type = "audio/webm"
             
-            try:
-                # Upload file to Gemini
-                audio_file = genai.upload_file(temp_file.name)
-                
-                # Use Gemini to transcribe
-                model = genai.GenerativeModel("gemini-2.0-flash")
-                
-                prompt = """Listen to this audio carefully and transcribe it exactly.
-The audio contains a math problem being spoken. Convert any spoken math to proper notation:
-- "squared" → ²
-- "cubed" → ³  
-- "divided by" → ÷
-- "times" → ×
-- "plus" → +
-- "minus" → -
-- "equals" → =
-
-Output ONLY the transcribed math problem, nothing else."""
-
-                response = model.generate_content([prompt, audio_file])
-                
-                transcript = response.text.strip() if response.text else ""
-                
-                # Clean up
-                genai.delete_file(audio_file.name)
-                
-                return {
-                    "success": True,
-                    "transcript": transcript,
-                    "confidence": 0.85 if transcript else 0.0
+            print(f"[DEBUG ASR] Processing audio: {len(audio_bytes)} bytes, detected MIME: {mime_type}")
+            
+            # Create inline data for Gemini
+            audio_part = {
+                "inline_data": {
+                    "mime_type": mime_type,
+                    "data": base64.b64encode(audio_bytes).decode('utf-8')
                 }
+            }
+            
+            # Use Gemini to transcribe
+            model = genai.GenerativeModel("gemini-2.0-flash")
+            
+            prompt = """Listen to this audio recording carefully and transcribe exactly what is spoken.
+
+This is a math problem being dictated. Please:
+1. Transcribe all spoken words accurately
+2. Convert spoken math terms to symbols where appropriate:
+   - "plus" → +
+   - "minus" → -
+   - "times" or "multiplied by" → ×
+   - "divided by" → ÷
+   - "equals" → =
+   - "squared" → ²
+   - "cubed" → ³
+   - "x" (the variable) stays as x
+
+Output ONLY the transcribed math problem or question, nothing else. If you cannot hear anything clearly, output "Unable to transcribe"."""
+
+            response = model.generate_content([prompt, audio_part])
+            
+            transcript = ""
+            if response and response.text:
+                transcript = response.text.strip()
+                # Filter out "unable to transcribe" responses
+                if "unable to transcribe" in transcript.lower():
+                    transcript = ""
+            
+            print(f"[DEBUG ASR] Gemini transcript: '{transcript}'")
+            
+            return {
+                "success": bool(transcript),
+                "transcript": transcript,
+                "confidence": 0.85 if transcript else 0.0
+            }
                 
-            finally:
-                if os.path.exists(temp_file.name):
-                    os.unlink(temp_file.name)
-                    
         except Exception as e:
-            print(f"Gemini audio transcription failed: {e}")
+            import traceback
+            print(f"[DEBUG ASR] Gemini transcription error: {e}")
+            traceback.print_exc()
             return {"success": False, "error": str(e)}
     
     def _normalize_math_phrases(self, text: str) -> str:
