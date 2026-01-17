@@ -561,6 +561,8 @@ def main():
                         
                         problem_text = processed.get("clean_text", "")
                         source = processed.get("source", "text")
+                        # Store for later use in clarification
+st.session_state.last_processed_text = problem_text
                         
                         if problem_text:
                             with st.spinner("Running agent pipeline..."):
@@ -593,8 +595,18 @@ def main():
                         if clarification_response:
                             # Re-run pipeline with clarification added to problem
                             with st.spinner("Re-processing with clarification..."):
+                                # Get the actual extracted/processed text from earlier
                                 original_problem = result.get("parser", {}).get("problem_text", "")
-                                enhanced_problem = f"{original_problem}\n\nClarification: {clarification_response}"
+                                
+                                # If problem_text is empty, try to get from parser input
+                                if not original_problem or original_problem.strip() == "":
+                                    # Try to get the raw input that was originally processed
+                                    if hasattr(st.session_state, 'last_processed_text'):
+                                        original_problem = st.session_state.last_processed_text
+                                    else:
+                                        original_problem = "Original problem from image"
+                                
+                                enhanced_problem = f"{original_problem}\n\nUser clarification: {clarification_response}"
                                 new_result = run_agent_pipeline(enhanced_problem, "text", settings)
                                 st.session_state.current_result = new_result
                                 st.rerun()
