@@ -595,7 +595,7 @@ def main():
                             with st.spinner("Re-processing with clarification..."):
                                 original_problem = result.get("parser", {}).get("problem_text", "")
                                 enhanced_problem = f"{original_problem}\n\nClarification: {clarification_response}"
-                                new_result = run_agent_pipeline(enhanced_problem, "text", render_sidebar())
+                                new_result = run_agent_pipeline(enhanced_problem, "text", settings)
                                 st.session_state.current_result = new_result
                                 st.rerun()
                         else:
