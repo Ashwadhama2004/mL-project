@@ -1,0 +1,8 @@
+# System packages required for deployment
+# These are installed via apt on Streamlit Cloud
+
+# For EasyOCR
+libgl1-mesa-glx
+
+# For audio processing (Whisper)
+ffmpeg
