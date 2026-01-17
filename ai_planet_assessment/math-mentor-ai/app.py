@@ -159,14 +159,29 @@ def render_input_section(settings):
         return None
     
     elif "Audio" in input_mode:
-        st.info("🎤 Audio input: Upload an audio file or record (recording coming soon)")
-        uploaded_audio = st.file_uploader(
-            "Upload an audio file",
-            type=["wav", "mp3", "m4a"]
-        )
-        if uploaded_audio:
-            st.audio(uploaded_audio)
-            return {"type": "audio", "content": uploaded_audio.getvalue()}
+        st.info("🎤 Audio input: Record your problem or upload an audio file")
+        
+        # Audio recording (requires streamlit >= 1.33)
+        audio_tab1, audio_tab2 = st.tabs(["🎙️ Record Audio", "📁 Upload File"])
+        
+        with audio_tab1:
+            try:
+                recorded_audio = st.audio_input("Click to record your math problem")
+                if recorded_audio:
+                    st.audio(recorded_audio)
+                    return {"type": "audio", "content": recorded_audio.getvalue()}
+            except Exception:
+                st.warning("Audio recording requires Streamlit 1.33+. Please use file upload instead.")
+        
+        with audio_tab2:
+            uploaded_audio = st.file_uploader(
+                "Upload an audio file",
+                type=["wav", "mp3", "m4a"]
+            )
+            if uploaded_audio:
+                st.audio(uploaded_audio)
+                return {"type": "audio", "content": uploaded_audio.getvalue()}
+        
         return None
     
     return None
@@ -562,6 +577,34 @@ def main():
             
             if result.get("hitl_required"):
                 st.warning(f"🤔 **Clarification Needed:** {result.get('hitl_question')}")
+                
+                # Add text input for user to provide clarification
+                clarification_response = st.text_area(
+                    "Please provide clarification:",
+                    placeholder="Type your clarification here...",
+                    height=100,
+                    key="clarification_input"
+                )
+                
+                col_submit, col_cancel = st.columns(2)
+                with col_submit:
+                    if st.button("✅ Submit Clarification", type="primary", use_container_width=True):
+                        if clarification_response:
+                            # Re-run pipeline with clarification added to problem
+                            with st.spinner("Re-processing with clarification..."):
+                                original_problem = result.get("parser", {}).get("problem_text", "")
+                                enhanced_problem = f"{original_problem}\n\nClarification: {clarification_response}"
+                                new_result = run_agent_pipeline(enhanced_problem, "text", render_sidebar())
+                                st.session_state.current_result = new_result
+                                st.rerun()
+                        else:
+                            st.error("Please enter your clarification before submitting.")
+                with col_cancel:
+                    if st.button("❌ Cancel", use_container_width=True):
+                        st.session_state.problem_solved = False
+                        st.session_state.current_result = None
+                        st.rerun()
+                        
             elif result.get("success"):
                 render_solution(result)
                 
