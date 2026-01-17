@@ -90,7 +90,7 @@ def render_sidebar():
         input_mode = st.selectbox(
             "Input Mode",
             ["📝 Text", "🖼️ Image (OCR)", "🎤 Audio (ASR)"],
-            index=0
+            index=0,
             key="input_mode_selectbox"
         )
         
