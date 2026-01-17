@@ -420,4 +420,4 @@ elif not isinstance(llm_conf, (int, float)):
 
 ## 📄 License
 
-MIT License
+License:- it can't be use for research and comercial purpose. except me no one can sell it or do research in this, strict license if anyone want to use it commercially or want's to sell it they have to take permission from me and have to compensate me well, according to i asked.
