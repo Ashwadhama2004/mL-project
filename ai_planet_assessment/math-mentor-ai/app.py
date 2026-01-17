@@ -562,7 +562,7 @@ def main():
                         problem_text = processed.get("clean_text", "")
                         source = processed.get("source", "text")
                         # Store for later use in clarification
-st.session_state.last_processed_text = problem_text
+                        st.session_state.last_processed_text = problem_text
                         
                         if problem_text:
                             with st.spinner("Running agent pipeline..."):
