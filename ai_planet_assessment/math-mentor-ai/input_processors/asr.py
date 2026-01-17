@@ -1,7 +1,8 @@
 """
 ASR Processor for Math Mentor AI
 
-This module handles audio-to-text conversion for math problems using OpenAI Whisper.
+This module handles audio-to-text conversion for math problems.
+Uses Google Gemini for audio transcription (primary) with Whisper as fallback.
 It transcribes audio with confidence scoring, normalizes math phrases, and triggers HITL.
 """
 
@@ -10,13 +11,14 @@ from typing import Dict, Any, Optional
 from pathlib import Path
 import tempfile
 import os
+import base64
 
 # Lazy imports to avoid loading heavy models until needed
 _whisper_model = None
 
 
 def get_whisper_model(model_size: str = "base"):
-    """Lazy load the Whisper model."""
+    """Lazy load the Whisper model (fallback)."""
     global _whisper_model
     if _whisper_model is None:
         try:
@@ -25,7 +27,11 @@ def get_whisper_model(model_size: str = "base"):
             _whisper_model = whisper.load_model(model_size)
             print("Whisper loaded successfully.")
         except ImportError:
-            raise ImportError("Whisper not installed. Run: pip install openai-whisper")
+            print("Whisper not available. Using Gemini-only mode.")
+            return None
+        except Exception as e:
+            print(f"Whisper failed to load: {e}")
+            return None
     return _whisper_model
 
 
@@ -131,10 +137,79 @@ class ASRProcessor:
     
     @property
     def model(self):
-        """Lazy-load the Whisper model."""
+        """Lazy-load the Whisper model (fallback)."""
         if self._model is None:
             self._model = get_whisper_model(self.model_size)
         return self._model
+    
+    def _transcribe_with_gemini(self, audio_bytes: bytes) -> Dict[str, Any]:
+        """
+        Transcribe audio using Google Gemini's audio capabilities.
+        
+        Args:
+            audio_bytes: Audio file bytes
+            
+        Returns:
+            Dictionary with transcript and confidence
+        """
+        try:
+            from utils.llm_client import LLMClient
+            import google.generativeai as genai
+            import os
+            from dotenv import load_dotenv
+            
+            load_dotenv()
+            api_key = os.getenv("GOOGLE_API_KEY")
+            
+            if not api_key:
+                return {"success": False, "error": "No API key"}
+            
+            genai.configure(api_key=api_key)
+            
+            # Create a temp file to save audio
+            temp_file = tempfile.NamedTemporaryFile(suffix=".wav", delete=False)
+            temp_file.write(audio_bytes)
+            temp_file.close()
+            
+            try:
+                # Upload file to Gemini
+                audio_file = genai.upload_file(temp_file.name)
+                
+                # Use Gemini to transcribe
+                model = genai.GenerativeModel("gemini-2.0-flash")
+                
+                prompt = """Listen to this audio carefully and transcribe it exactly.
+The audio contains a math problem being spoken. Convert any spoken math to proper notation:
+- "squared" → ²
+- "cubed" → ³  
+- "divided by" → ÷
+- "times" → ×
+- "plus" → +
+- "minus" → -
+- "equals" → =
+
+Output ONLY the transcribed math problem, nothing else."""
+
+                response = model.generate_content([prompt, audio_file])
+                
+                transcript = response.text.strip() if response.text else ""
+                
+                # Clean up
+                genai.delete_file(audio_file.name)
+                
+                return {
+                    "success": True,
+                    "transcript": transcript,
+                    "confidence": 0.85 if transcript else 0.0
+                }
+                
+            finally:
+                if os.path.exists(temp_file.name):
+                    os.unlink(temp_file.name)
+                    
+        except Exception as e:
+            print(f"Gemini audio transcription failed: {e}")
+            return {"success": False, "error": str(e)}
     
     def _normalize_math_phrases(self, text: str) -> str:
         """
@@ -303,13 +378,48 @@ class ASRProcessor:
         """
         Process audio from bytes.
         
+        Uses Gemini for transcription (primary), with Whisper as fallback.
+        
         Args:
             audio_bytes: Audio as bytes
             
         Returns:
             ASR result dictionary
         """
-        return self.process(audio_bytes)
+        # Try Gemini first (works on Streamlit Cloud)
+        gemini_result = self._transcribe_with_gemini(audio_bytes)
+        
+        if gemini_result.get("success") and gemini_result.get("transcript"):
+            transcript = gemini_result["transcript"]
+            normalized = self._normalize_math_phrases(transcript)
+            confidence = gemini_result.get("confidence", 0.85)
+            
+            return {
+                "transcript": normalized,
+                "raw_transcript": transcript,
+                "confidence": confidence,
+                "needs_human_review": confidence < self.confidence_threshold,
+                "source": "asr",
+                "method": "gemini",
+                "details": {
+                    "threshold": self.confidence_threshold
+                }
+            }
+        
+        # Fallback to Whisper if available
+        print("Gemini transcription failed, trying Whisper fallback...")
+        try:
+            return self.process(audio_bytes)
+        except Exception as e:
+            # If both fail, return error
+            error_msg = gemini_result.get("error", str(e))
+            return {
+                "transcript": "",
+                "confidence": 0.0,
+                "needs_human_review": True,
+                "source": "asr",
+                "error": f"Transcription failed: {error_msg}"
+            }
 
 
 def main():

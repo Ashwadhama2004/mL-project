@@ -121,6 +121,51 @@ class OCRProcessor:
         
         return sum(confidences) / len(confidences)
     
+    def _llm_enhance_ocr(self, raw_text: str, confidence: float) -> str:
+        """
+        Use LLM to enhance and fix OCR-extracted math text.
+        
+        Args:
+            raw_text: Raw OCR extracted text
+            confidence: OCR confidence score
+            
+        Returns:
+            Enhanced/corrected text
+        """
+        try:
+            from utils.llm_client import LLMClient
+            llm = LLMClient(temperature=0.1)  # Low temperature for accuracy
+            
+            prompt = f"""You are a math OCR correction expert. The following text was extracted from an image of a math problem using OCR, but may contain errors.
+
+Common OCR misreadings in math:
+- Division symbol (÷) often misread as "-:", ":", "-", or "+:"
+- Multiplication (×) misread as "x" or "*"
+- Fractions may appear as separate numbers
+- Exponents may not be recognized properly
+
+Original OCR text (confidence: {confidence:.0%}):
+"{raw_text}"
+
+Please output ONLY the corrected mathematical expression. If you see patterns like "9-3-1" that look like they should be "9-3÷1" based on context, correct them. Look for division patterns especially.
+
+Output only the corrected math expression, nothing else:"""
+
+            corrected = llm.generate(prompt)
+            
+            # Clean up LLM response
+            if corrected:
+                corrected = corrected.strip().strip('"').strip("'")
+                # Don't use if LLM hallucinated too much
+                if len(corrected) < len(raw_text) * 3:
+                    return corrected
+            
+            return raw_text
+            
+        except Exception as e:
+            print(f"LLM OCR enhancement failed: {e}")
+            return raw_text
+    
     def _combine_text(self, results: List) -> str:
         """
         Combine text from OCR results into coherent text.
@@ -196,6 +241,15 @@ class OCRProcessor:
             
             # Calculate confidence
             confidence = self._calculate_confidence(results)
+            
+            # Use LLM to enhance/fix math symbols if confidence is not very high
+            # or if text contains potential math expressions
+            if confidence < 0.9 or any(c in raw_text for c in '0123456789+-='):
+                enhanced_text = self._llm_enhance_ocr(raw_text, confidence)
+                if enhanced_text and enhanced_text != raw_text:
+                    normalized_text = enhanced_text
+                    # Boost confidence after LLM enhancement
+                    confidence = min(confidence + 0.15, 0.95)
             
             # Determine if human review is needed
             needs_review = confidence < self.confidence_threshold
