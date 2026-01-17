@@ -1,5 +1,9 @@
 # Math Mentor AI
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ml-project-6fdsbenhpfb9yujrnhckwp.streamlit.app/)
+
+**🔗 Live Demo: [https://ml-project-6fdsbenhpfb9yujrnhckwp.streamlit.app/](https://ml-project-6fdsbenhpfb9yujrnhckwp.streamlit.app/)**
+
 An intelligent math tutoring system for JEE-level problems with multimodal input, RAG-based knowledge retrieval, multi-agent orchestration, human-in-the-loop verification, and self-learning capabilities.
 
 ## 🎯 Features

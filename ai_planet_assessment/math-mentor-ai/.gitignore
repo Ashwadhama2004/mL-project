@@ -43,8 +43,8 @@ math/
 *.swp
 *.swo
 
-# Data files (generated)
-data/faiss_index/
+# Data files (generated - exclude runtime data but keep FAISS index for deployment)
+# data/faiss_index/  # Include FAISS index for Streamlit Cloud deployment
 data/memory_store.db
 data/feedback_log.json
 

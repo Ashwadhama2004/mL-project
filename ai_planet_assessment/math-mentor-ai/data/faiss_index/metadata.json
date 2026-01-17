@@ -1,0 +1,3428 @@
+[
+  {
+    "source": "algebra",
+    "section": "Introduction",
+    "subsection": "",
+    "text": "# Algebra - JEE Mathematics Knowledge Base..."
+  },
+  {
+    "source": "algebra",
+    "section": "Quadratic Equations",
+    "subsection": "Standard Form",
+    "text": "A quadratic equation is of the form: **ax² + bx + c = 0** where a ≠ 0..."
+  },
+  {
+    "source": "algebra",
+    "section": "Quadratic Equations",
+    "subsection": "Quadratic Formula",
+    "text": "For ax² + bx + c = 0:\n```\nx = (-b ± √(b² - 4ac)) / (2a)\n```..."
+  },
+  {
+    "source": "algebra",
+    "section": "Quadratic Equations",
+    "subsection": "Discriminant (D = b² - 4ac)",
+    "text": "- **D > 0**: Two distinct real roots\n- **D = 0**: Two equal real roots (repeated root)\n- **D < 0**: Two complex conjugate roots..."
+  },
+  {
+    "source": "algebra",
+    "section": "Quadratic Equations",
+    "subsection": "Sum and Product of Roots",
+    "text": "For roots α and β:\n- **Sum of roots**: α + β = -b/a\n- **Product of roots**: αβ = c/a..."
+  },
+  {
+    "source": "algebra",
+    "section": "Quadratic Equations",
+    "subsection": "Forming Quadratic from Roots",
+    "text": "If α and β are roots: **x² - (α + β)x + αβ = 0**\n\n---..."
+  },
+  {
+    "source": "algebra",
+    "section": "Polynomial Equations",
+    "subsection": "Factor Theorem",
+    "text": "If P(a) = 0, then (x - a) is a factor of polynomial P(x)..."
+  },
+  {
+    "source": "algebra",
+    "section": "Polynomial Equations",
+    "subsection": "Remainder Theorem",
+    "text": "When P(x) is divided by (x - a), remainder = P(a)..."
+  },
+  {
+    "source": "algebra",
+    "section": "Polynomial Equations",
+    "subsection": "Polynomial Division",
+    "text": "P(x) = Q(x) × D(x) + R(x)\nwhere deg(R) < deg(D)..."
+  },
+  {
+    "source": "algebra",
+    "section": "Polynomial Equations",
+    "subsection": "Cubic Equations (ax³ + bx² + cx + d = 0)",
+    "text": "For roots α, β, γ:\n- α + β + γ = -b/a\n- αβ + βγ + γα = c/a\n- αβγ = -d/a\n\n---..."
+  },
+  {
+    "source": "algebra",
+    "section": "Arithmetic Progression (AP)",
+    "subsection": "nth Term",
+    "text": "**aₙ = a + (n-1)d**\nwhere a = first term, d = common difference..."
+  },
+  {
+    "source": "algebra",
+    "section": "Arithmetic Progression (AP)",
+    "subsection": "Sum of n Terms",
+    "text": "**Sₙ = n/2 × [2a + (n-1)d]** or **Sₙ = n/2 × (a + l)**\nwhere l = last term..."
+  },
+  {
+    "source": "algebra",
+    "section": "Arithmetic Progression (AP)",
+    "subsection": "Properties",
+    "text": "- If a, b, c are in AP: 2b = a + c\n- Arithmetic Mean (AM) of a and b: (a + b)/2\n\n---..."
+  },
+  {
+    "source": "algebra",
+    "section": "Geometric Progression (GP)",
+    "subsection": "nth Term",
+    "text": "**aₙ = ar^(n-1)**\nwhere a = first term, r = common ratio..."
+  },
+  {
+    "source": "algebra",
+    "section": "Geometric Progression (GP)",
+    "subsection": "Sum of n Terms",
+    "text": "- For r ≠ 1: **Sₙ = a(rⁿ - 1)/(r - 1)** or **Sₙ = a(1 - rⁿ)/(1 - r)**\n- For r = 1: **Sₙ = na**..."
+  },
+  {
+    "source": "algebra",
+    "section": "Geometric Progression (GP)",
+    "subsection": "Sum to Infinity (|r| < 1)",
+    "text": "**S∞ = a/(1 - r)**..."
+  },
+  {
+    "source": "algebra",
+    "section": "Geometric Progression (GP)",
+    "subsection": "Properties",
+    "text": "- If a, b, c are in GP: b² = ac\n- Geometric Mean (GM) of a and b: √(ab)\n\n---..."
+  },
+  {
+    "source": "algebra",
+    "section": "Harmonic Progression (HP)",
+    "subsection": "Definition",
+    "text": "A sequence is in HP if its reciprocals form an AP...."
+  },
+  {
+    "source": "algebra",
+    "section": "Harmonic Progression (HP)",
+    "subsection": "nth Term",
+    "text": "If 1/a, 1/b, 1/c... are in AP with first term 1/a and common difference d:\n**1/aₙ = 1/a + (n-1)d**..."
+  },
+  {
+    "source": "algebra",
+    "section": "Harmonic Progression (HP)",
+    "subsection": "Harmonic Mean",
+    "text": "HM of a and b: **2ab/(a + b)**..."
+  },
+  {
+    "source": "algebra",
+    "section": "Harmonic Progression (HP)",
+    "subsection": "AM-GM-HM Inequality",
+    "text": "For positive numbers: **AM ≥ GM ≥ HM**\nEquality holds when all numbers are equal.\n\n---..."
+  },
+  {
+    "source": "algebra",
+    "section": "Logarithms",
+    "subsection": "Definition",
+    "text": "If aˣ = N, then x = logₐN (a > 0, a ≠ 1, N > 0)..."
+  },
+  {
+    "source": "algebra",
+    "section": "Logarithms",
+    "subsection": "Basic Properties",
+    "text": "- logₐ(MN) = logₐM + logₐN\n- logₐ(M/N) = logₐM - logₐN\n- logₐ(Mⁿ) = n × logₐM\n- logₐa = 1\n- logₐ1 = 0..."
+  },
+  {
+    "source": "algebra",
+    "section": "Logarithms",
+    "subsection": "Change of Base",
+    "text": "**logₐN = logᵦN / logᵦa**..."
+  },
+  {
+    "source": "algebra",
+    "section": "Logarithms",
+    "subsection": "Important Results",
+    "text": "- logₐb × logᵦa = 1\n- logₐb = 1/logᵦa\n- a^(logₐN) = N\n\n---..."
+  },
+  {
+    "source": "algebra",
+    "section": "Inequalities",
+    "subsection": "Properties",
+    "text": "- If a > b, then a + c > b + c\n- If a > b and c > 0, then ac > bc\n- If a > b and c < 0, then ac < bc (inequality reverses)..."
+  },
+  {
+    "source": "algebra",
+    "section": "Inequalities",
+    "subsection": "AM-GM Inequality",
+    "text": "For positive numbers a₁, a₂, ..., aₙ:\n**(a₁ + a₂ + ... + aₙ)/n ≥ ⁿ√(a₁ × a₂ × ... × aₙ)**..."
+  },
+  {
+    "source": "algebra",
+    "section": "Inequalities",
+    "subsection": "Cauchy-Schwarz Inequality",
+    "text": "(a₁² + a₂² + ... + aₙ²)(b₁² + b₂² + ... + bₙ²) ≥ (a₁b₁ + a₂b₂ + ... + aₙbₙ)²..."
+  },
+  {
+    "source": "algebra",
+    "section": "Inequalities",
+    "subsection": "Triangle Inequality",
+    "text": "|a + b| ≤ |a| + |b|\n|a - b| ≥ ||a| - |b||\n\n---..."
+  },
+  {
+    "source": "algebra",
+    "section": "Modulus and Greatest Integer Function",
+    "subsection": "Modulus |x|",
+    "text": "- |x| = x if x ≥ 0\n- |x| = -x if x < 0..."
+  },
+  {
+    "source": "algebra",
+    "section": "Modulus and Greatest Integer Function",
+    "subsection": "Properties of Modulus",
+    "text": "- |ab| = |a| × |b|\n- |a/b| = |a|/|b| (b ≠ 0)\n- |a + b| ≤ |a| + |b|..."
+  },
+  {
+    "source": "algebra",
+    "section": "Modulus and Greatest Integer Function",
+    "subsection": "Greatest Integer [x]",
+    "text": "[x] = greatest integer ≤ x..."
+  },
+  {
+    "source": "algebra",
+    "section": "Modulus and Greatest Integer Function",
+    "subsection": "Fractional Part {x}",
+    "text": "{x} = x - [x], where 0 ≤ {x} < 1\n\n---..."
+  },
+  {
+    "source": "algebra",
+    "section": "JEE-Specific Tips for Algebra",
+    "subsection": "",
+    "text": "1. **For sum of roots problems**: Always use Vieta's formulas instead of finding roots\n2. **For inequalities**: Check the sign of multiplied terms carefully\n3. **For logarithms**: Remember domain rest..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Introduction",
+    "subsection": "",
+    "text": "# Binomial Theorem - JEE Mathematics Knowledge Base..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "General Binomial Expansion",
+    "subsection": "Statement",
+    "text": "For any positive integer n:\n**(a + b)ⁿ = Σ(r=0 to n) ⁿCᵣ aⁿ⁻ʳ bʳ**..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "General Binomial Expansion",
+    "subsection": "Expanded Form",
+    "text": "(a + b)ⁿ = ⁿC₀aⁿ + ⁿC₁aⁿ⁻¹b + ⁿC₂aⁿ⁻²b² + ... + ⁿCₙbⁿ..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "General Binomial Expansion",
+    "subsection": "Number of Terms",
+    "text": "n + 1 terms in expansion..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "General Binomial Expansion",
+    "subsection": "General Term (Tᵣ₊₁)",
+    "text": "**Tᵣ₊₁ = ⁿCᵣ aⁿ⁻ʳ bʳ**\n\n---..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Special Expansions",
+    "subsection": "(1 + x)ⁿ",
+    "text": "(1 + x)ⁿ = ⁿC₀ + ⁿC₁x + ⁿC₂x² + ... + ⁿCₙxⁿ..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Special Expansions",
+    "subsection": "(1 - x)ⁿ",
+    "text": "(1 - x)ⁿ = ⁿC₀ - ⁿC₁x + ⁿC₂x² - ⁿC₃x³ + ... + (-1)ⁿⁿCₙxⁿ..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Special Expansions",
+    "subsection": "Sum and Difference",
+    "text": "- (1 + x)ⁿ + (1 - x)ⁿ = 2[ⁿC₀ + ⁿC₂x² + ⁿC₄x⁴ + ...] (even terms)\n- (1 + x)ⁿ - (1 - x)ⁿ = 2[ⁿC₁x + ⁿC₃x³ + ⁿC₅x⁵ + ...] (odd terms)\n\n---..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Binomial Coefficients",
+    "subsection": "Notation",
+    "text": "**ⁿCᵣ = n! / [r!(n-r)!] = C(n,r) = (n r)**..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Binomial Coefficients",
+    "subsection": "Properties",
+    "text": "- ⁿC₀ = ⁿCₙ = 1\n- ⁿCᵣ = ⁿCₙ₋ᵣ\n- ⁿCᵣ + ⁿCᵣ₋₁ = ⁿ⁺¹Cᵣ (Pascal's identity)\n- ⁿCᵣ/ⁿCᵣ₋₁ = (n-r+1)/r..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Binomial Coefficients",
+    "subsection": "Sum of Coefficients",
+    "text": "- Put x = 1: (1+1)ⁿ = 2ⁿ = ⁿC₀ + ⁿC₁ + ⁿC₂ + ... + ⁿCₙ\n- Put x = -1: 0 = ⁿC₀ - ⁿC₁ + ⁿC₂ - ... = (sum of even) - (sum of odd)..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Binomial Coefficients",
+    "subsection": "Important Sums",
+    "text": "- ⁿC₀ + ⁿC₁ + ⁿC₂ + ... + ⁿCₙ = 2ⁿ\n- ⁿC₀ + ⁿC₂ + ⁿC₄ + ... = 2ⁿ⁻¹ (sum of even coefficients)\n- ⁿC₁ + ⁿC₃ + ⁿC₅ + ... = 2ⁿ⁻¹ (sum of odd coefficients)\n\n---..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Middle Term",
+    "subsection": "When n is Even",
+    "text": "One middle term: T₍ₙ/₂₎₊₁ = ⁿCₙ/₂ aⁿ/² bⁿ/²..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Middle Term",
+    "subsection": "When n is Odd",
+    "text": "Two middle terms: T₍ₙ₊₁₎/₂ and T₍ₙ₊₃₎/₂\n\n---..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Greatest Term",
+    "subsection": "Method",
+    "text": "Compare ratio Tᵣ₊₁/Tᵣ with 1:\n- If ratio > 1: terms increasing\n- If ratio < 1: terms decreasing\n- If ratio = 1: two consecutive terms are equal and greatest..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Greatest Term",
+    "subsection": "Formula for (1 + x)ⁿ",
+    "text": "Tᵣ₊₁/Tᵣ = (n-r+1)/r × x\n\nGreatest term when r = ⌊(n+1)x/(1+x)⌋ or ⌈...⌉\n\n---..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Greatest Coefficient",
+    "subsection": "For (1 + x)ⁿ",
+    "text": "- n even: Greatest coefficient = ⁿCₙ/₂\n- n odd: Two greatest = ⁿC₍ₙ₋₁₎/₂ = ⁿC₍ₙ₊₁₎/₂\n\n---..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Multinomial Theorem",
+    "subsection": "Statement",
+    "text": "(x₁ + x₂ + ... + xₖ)ⁿ = Σ [n!/(n₁!n₂!...nₖ!)] x₁ⁿ¹x₂ⁿ²...xₖⁿᵏ\n\nwhere n₁ + n₂ + ... + nₖ = n..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Multinomial Theorem",
+    "subsection": "Number of Terms",
+    "text": "Number of non-negative integer solutions = ⁿ⁺ᵏ⁻¹Cₖ₋₁\n\n---..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Binomial Theorem for Negative/Fractional Index",
+    "subsection": "General Expansion (|x| < 1)",
+    "text": "**(1 + x)ⁿ = 1 + nx + n(n-1)x²/2! + n(n-1)(n-2)x³/3! + ...**\n\nValid for any real n when |x| < 1 (infinite series)..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Binomial Theorem for Negative/Fractional Index",
+    "subsection": "Special Cases",
+    "text": "- (1 + x)⁻¹ = 1 - x + x² - x³ + ... = Σ(-1)ʳxʳ\n- (1 - x)⁻¹ = 1 + x + x² + x³ + ... = Σxʳ\n- (1 + x)⁻² = 1 - 2x + 3x² - 4x³ + ... = Σ(-1)ʳ(r+1)xʳ\n- (1 - x)⁻² = 1 + 2x + 3x² + 4x³ + ... = Σ(r+1)xʳ\n- (1 +..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Binomial Theorem for Negative/Fractional Index",
+    "subsection": "General Term for Negative Index",
+    "text": "In (1 + x)⁻ⁿ:\nTᵣ₊₁ = (-1)ʳ × [n(n+1)(n+2)...(n+r-1)/r!] × xʳ\n     = (-1)ʳ × ⁿ⁺ʳ⁻¹Cᵣ × xʳ\n\n---..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Applications",
+    "subsection": "Finding Coefficient of xʳ",
+    "text": "In (a + bx)ⁿ: Coefficient of xʳ is ⁿCᵣ aⁿ⁻ʳ bʳ..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Applications",
+    "subsection": "Finding Term Independent of x",
+    "text": "Set power of x = 0 and solve for r..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Applications",
+    "subsection": "Approximations",
+    "text": "(1 + x)ⁿ ≈ 1 + nx for small x (first-order approximation)..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Applications",
+    "subsection": "Divisibility Problems",
+    "text": "Expand and analyze remainder when divided by n\n\n---..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Summation of Series Using Binomial",
+    "subsection": "Differentiation Method",
+    "text": "Differentiate (1+x)ⁿ = Σ ⁿCᵣ xʳ to get:\nn(1+x)ⁿ⁻¹ = Σ r × ⁿCᵣ xʳ⁻¹\n\nAt x = 1: n × 2ⁿ⁻¹ = Σ r × ⁿCᵣ..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Summation of Series Using Binomial",
+    "subsection": "Integration Method",
+    "text": "Integrate (1+x)ⁿ = Σ ⁿCᵣ xʳ to get series involving ⁿCᵣ/(r+1)..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Summation of Series Using Binomial",
+    "subsection": "Multiplication and Division",
+    "text": "Multiply by x before differentiating for other patterns\n\n---..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Important Series Results",
+    "subsection": "Sum of Products",
+    "text": "- Σ ⁿCᵣ² = ²ⁿCₙ\n- Σ r × ⁿCᵣ = n × 2ⁿ⁻¹\n- Σ r² × ⁿCᵣ = n(n+1) × 2ⁿ⁻²\n- Σ ⁿCᵣ × ⁿCᵣ₊₁ = ²ⁿCₙ₊₁..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "Important Series Results",
+    "subsection": "Vandermonde's Identity",
+    "text": "ᵐCᵣ × ⁿCₛ₋ᵣ summed for r = ᵐ⁺ⁿCₛ\n\n---..."
+  },
+  {
+    "source": "binomial_theorem",
+    "section": "JEE-Specific Tips for Binomial Theorem",
+    "subsection": "",
+    "text": "1. **For general term**: Use Tᵣ₊₁ formula, not Tᵣ\n2. **For term independent of x**: Set total power = 0\n3. **For coefficient problems**: Extract coefficient after finding term\n4. **For sum of coeffici..."
+  },
+  {
+    "source": "calculus",
+    "section": "Introduction",
+    "subsection": "",
+    "text": "# Calculus - JEE Mathematics Knowledge Base..."
+  },
+  {
+    "source": "calculus",
+    "section": "Limits",
+    "subsection": "Definition",
+    "text": "lim(x→a) f(x) = L means f(x) approaches L as x approaches a..."
+  },
+  {
+    "source": "calculus",
+    "section": "Limits",
+    "subsection": "Standard Limits",
+    "text": "- lim(x→0) (sin x)/x = 1\n- lim(x→0) (tan x)/x = 1\n- lim(x→0) (1 - cos x)/x² = 1/2\n- lim(x→0) (eˣ - 1)/x = 1\n- lim(x→0) (aˣ - 1)/x = ln a\n- lim(x→0) (ln(1 + x))/x = 1\n- lim(x→0) ((1 + x)^(1/x)) = e\n- l..."
+  },
+  {
+    "source": "calculus",
+    "section": "Limits",
+    "subsection": "L'Hôpital's Rule",
+    "text": "If lim f(x)/g(x) gives 0/0 or ∞/∞ form:\n**lim f(x)/g(x) = lim f'(x)/g'(x)**..."
+  },
+  {
+    "source": "calculus",
+    "section": "Limits",
+    "subsection": "Sandwich/Squeeze Theorem",
+    "text": "If g(x) ≤ f(x) ≤ h(x) and lim g(x) = lim h(x) = L, then lim f(x) = L\n\n---..."
+  },
+  {
+    "source": "calculus",
+    "section": "Continuity",
+    "subsection": "Definition",
+    "text": "f(x) is continuous at x = a if:\n1. f(a) is defined\n2. lim(x→a) f(x) exists\n3. lim(x→a) f(x) = f(a)..."
+  },
+  {
+    "source": "calculus",
+    "section": "Continuity",
+    "subsection": "Types of Discontinuities",
+    "text": "- **Removable**: limit exists but ≠ f(a)\n- **Jump**: left and right limits exist but are different\n- **Infinite**: function approaches ±∞..."
+  },
+  {
+    "source": "calculus",
+    "section": "Continuity",
+    "subsection": "Intermediate Value Theorem",
+    "text": "If f is continuous on [a, b] and k is between f(a) and f(b), \nthen there exists c ∈ (a, b) such that f(c) = k\n\n---..."
+  },
+  {
+    "source": "calculus",
+    "section": "Differentiation",
+    "subsection": "First Principles",
+    "text": "**f'(x) = lim(h→0) [f(x + h) - f(x)]/h**..."
+  },
+  {
+    "source": "calculus",
+    "section": "Differentiation",
+    "subsection": "Basic Derivatives",
+    "text": "- d/dx(xⁿ) = nxⁿ⁻¹\n- d/dx(eˣ) = eˣ\n- d/dx(aˣ) = aˣ ln a\n- d/dx(ln x) = 1/x\n- d/dx(logₐx) = 1/(x ln a)\n- d/dx(sin x) = cos x\n- d/dx(cos x) = -sin x\n- d/dx(tan x) = sec²x\n- d/dx(cot x) = -csc²x\n- d/dx(s..."
+  },
+  {
+    "source": "calculus",
+    "section": "Differentiation",
+    "subsection": "Inverse Trigonometric Derivatives",
+    "text": "- d/dx(sin⁻¹x) = 1/√(1 - x²)\n- d/dx(cos⁻¹x) = -1/√(1 - x²)\n- d/dx(tan⁻¹x) = 1/(1 + x²)\n- d/dx(cot⁻¹x) = -1/(1 + x²)\n- d/dx(sec⁻¹x) = 1/(|x|√(x² - 1))\n- d/dx(csc⁻¹x) = -1/(|x|√(x² - 1))..."
+  },
+  {
+    "source": "calculus",
+    "section": "Differentiation",
+    "subsection": "Rules of Differentiation",
+    "text": "- **Product Rule**: (uv)' = u'v + uv'\n- **Quotient Rule**: (u/v)' = (u'v - uv')/v²\n- **Chain Rule**: d/dx[f(g(x))] = f'(g(x)) × g'(x)..."
+  },
+  {
+    "source": "calculus",
+    "section": "Differentiation",
+    "subsection": "Implicit Differentiation",
+    "text": "For F(x, y) = 0: dy/dx = -Fₓ/Fᵧ..."
+  },
+  {
+    "source": "calculus",
+    "section": "Differentiation",
+    "subsection": "Parametric Differentiation",
+    "text": "If x = f(t), y = g(t): dy/dx = (dy/dt)/(dx/dt)..."
+  },
+  {
+    "source": "calculus",
+    "section": "Differentiation",
+    "subsection": "Logarithmic Differentiation",
+    "text": "Take ln of both sides, differentiate, useful for y = f(x)^g(x)\n\n---..."
+  },
+  {
+    "source": "calculus",
+    "section": "Applications of Derivatives",
+    "subsection": "Tangent and Normal",
+    "text": "At point (x₁, y₁):\n- **Tangent**: y - y₁ = m(x - x₁) where m = dy/dx at (x₁, y₁)\n- **Normal**: y - y₁ = (-1/m)(x - x₁)..."
+  },
+  {
+    "source": "calculus",
+    "section": "Applications of Derivatives",
+    "subsection": "Increasing/Decreasing Functions",
+    "text": "- f'(x) > 0 → f is increasing\n- f'(x) < 0 → f is decreasing\n- f'(x) = 0 → f is constant (locally)..."
+  },
+  {
+    "source": "calculus",
+    "section": "Applications of Derivatives",
+    "subsection": "Maxima and Minima",
+    "text": "**First Derivative Test**:\n- f'(x) changes from + to - → local maximum\n- f'(x) changes from - to + → local minimum\n\n**Second Derivative Test**:\n- f'(c) = 0 and f''(c) < 0 → local maximum at c\n- f'(c) ..."
+  },
+  {
+    "source": "calculus",
+    "section": "Applications of Derivatives",
+    "subsection": "Concavity and Points of Inflection",
+    "text": "- f''(x) > 0 → concave up\n- f''(x) < 0 → concave down\n- f''(x) = 0 and changes sign → point of inflection..."
+  },
+  {
+    "source": "calculus",
+    "section": "Applications of Derivatives",
+    "subsection": "Mean Value Theorem",
+    "text": "If f is continuous on [a, b] and differentiable on (a, b):\n**f'(c) = [f(b) - f(a)]/(b - a)** for some c ∈ (a, b)..."
+  },
+  {
+    "source": "calculus",
+    "section": "Applications of Derivatives",
+    "subsection": "Rolle's Theorem",
+    "text": "If f(a) = f(b), then f'(c) = 0 for some c ∈ (a, b)\n\n---..."
+  },
+  {
+    "source": "calculus",
+    "section": "Integration",
+    "subsection": "Basic Integrals",
+    "text": "- ∫xⁿ dx = xⁿ⁺¹/(n+1) + C (n ≠ -1)\n- ∫1/x dx = ln|x| + C\n- ∫eˣ dx = eˣ + C\n- ∫aˣ dx = aˣ/ln a + C\n- ∫sin x dx = -cos x + C\n- ∫cos x dx = sin x + C\n- ∫sec²x dx = tan x + C\n- ∫csc²x dx = -cot x + C\n- ∫s..."
+  },
+  {
+    "source": "calculus",
+    "section": "Integration",
+    "subsection": "Important Integrals",
+    "text": "- ∫1/(1 + x²) dx = tan⁻¹x + C\n- ∫1/√(1 - x²) dx = sin⁻¹x + C\n- ∫1/(x√(x² - 1)) dx = sec⁻¹|x| + C\n- ∫tan x dx = ln|sec x| + C\n- ∫cot x dx = ln|sin x| + C\n- ∫sec x dx = ln|sec x + tan x| + C\n- ∫csc x dx..."
+  },
+  {
+    "source": "calculus",
+    "section": "Integration",
+    "subsection": "Integration by Parts",
+    "text": "**∫u dv = uv - ∫v du**\n\nILATE rule for choosing u:\nI - Inverse trig, L - Logarithmic, A - Algebraic, T - Trigonometric, E - Exponential..."
+  },
+  {
+    "source": "calculus",
+    "section": "Integration",
+    "subsection": "Integration by Substitution",
+    "text": "If ∫f(g(x))g'(x) dx, let u = g(x), then du = g'(x)dx..."
+  },
+  {
+    "source": "calculus",
+    "section": "Integration",
+    "subsection": "Partial Fractions",
+    "text": "For rational functions P(x)/Q(x) where deg(P) < deg(Q):\n- Linear factors: A/(x - a)\n- Repeated linear: A/(x - a) + B/(x - a)²\n- Quadratic: (Ax + B)/(x² + px + q)\n\n---..."
+  },
+  {
+    "source": "calculus",
+    "section": "Definite Integration",
+    "subsection": "Fundamental Theorem of Calculus",
+    "text": "**∫[a to b] f(x) dx = F(b) - F(a)** where F'(x) = f(x)..."
+  },
+  {
+    "source": "calculus",
+    "section": "Definite Integration",
+    "subsection": "Properties",
+    "text": "- ∫[a to b] f(x) dx = -∫[b to a] f(x) dx\n- ∫[a to b] f(x) dx = ∫[a to c] f(x) dx + ∫[c to b] f(x) dx\n- ∫[a to b] f(x) dx = ∫[a to b] f(a + b - x) dx\n- ∫[0 to a] f(x) dx = ∫[0 to a] f(a - x) dx..."
+  },
+  {
+    "source": "calculus",
+    "section": "Definite Integration",
+    "subsection": "Even and Odd Functions",
+    "text": "- ∫[-a to a] f(x) dx = 2∫[0 to a] f(x) dx if f is even\n- ∫[-a to a] f(x) dx = 0 if f is odd..."
+  },
+  {
+    "source": "calculus",
+    "section": "Definite Integration",
+    "subsection": "Leibniz Rule",
+    "text": "d/dx[∫[a(x) to b(x)] f(t) dt] = f(b(x))b'(x) - f(a(x))a'(x)\n\n---..."
+  },
+  {
+    "source": "calculus",
+    "section": "Applications of Integration",
+    "subsection": "Area Under Curve",
+    "text": "Area = ∫[a to b] f(x) dx (when f(x) ≥ 0)..."
+  },
+  {
+    "source": "calculus",
+    "section": "Applications of Integration",
+    "subsection": "Area Between Curves",
+    "text": "Area = ∫[a to b] |f(x) - g(x)| dx..."
+  },
+  {
+    "source": "calculus",
+    "section": "Applications of Integration",
+    "subsection": "Volume of Revolution",
+    "text": "- **Disk method** (about x-axis): V = π∫[a to b] y² dx\n- **Shell method** (about y-axis): V = 2π∫[a to b] xy dx\n\n---..."
+  },
+  {
+    "source": "calculus",
+    "section": "JEE-Specific Tips for Calculus",
+    "subsection": "",
+    "text": "1. **For limits**: First try direct substitution, then factorize or use L'Hôpital\n2. **For derivatives**: Use logarithmic differentiation for x^x type problems\n3. **For maxima/minima**: Always check b..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Introduction",
+    "subsection": "",
+    "text": "# Common Mistakes in JEE Mathematics..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Algebra Mistakes",
+    "subsection": "Quadratic Equations",
+    "text": "- **Mistake**: Forgetting to check discriminant before solving\n- **Correct**: Always check D = b² - 4ac first\n\n- **Mistake**: Assuming (x-a)(x-b) = 0 means x = a only\n- **Correct**: x = a OR x = b (tw..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Algebra Mistakes",
+    "subsection": "Logarithms",
+    "text": "- **Mistake**: log(a + b) = log(a) + log(b)\n- **Correct**: log(ab) = log(a) + log(b), NOT log(a + b)\n\n- **Mistake**: Forgetting domain restrictions\n- **Correct**: Argument must be > 0, base must be > ..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Algebra Mistakes",
+    "subsection": "Inequalities",
+    "text": "- **Mistake**: Not reversing inequality when multiplying by negative\n- **Correct**: If a > b and c < 0, then ac < bc\n\n- **Mistake**: √(x²) = x\n- **Correct**: √(x²) = |x|..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Algebra Mistakes",
+    "subsection": "Modulus",
+    "text": "- **Mistake**: |a + b| = |a| + |b|\n- **Correct**: |a + b| ≤ |a| + |b| (triangle inequality)\n\n---..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Calculus Mistakes",
+    "subsection": "Limits",
+    "text": "- **Mistake**: lim(x→0) (sin x)/x = 0\n- **Correct**: lim(x→0) (sin x)/x = 1\n\n- **Mistake**: Applying L'Hôpital when limit exists directly\n- **Correct**: First try direct substitution..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Calculus Mistakes",
+    "subsection": "Differentiation",
+    "text": "- **Mistake**: d/dx(uv) = (du/dx)(dv/dx)\n- **Correct**: d/dx(uv) = u(dv/dx) + v(du/dx) (Product Rule)\n\n- **Mistake**: d/dx(u/v) = (du/dx)/(dv/dx)\n- **Correct**: d/dx(u/v) = (v·du/dx - u·dv/dx)/v² (Quo..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Calculus Mistakes",
+    "subsection": "Integration",
+    "text": "- **Mistake**: Forgetting +C in indefinite integrals\n- **Correct**: Always add constant of integration\n\n- **Mistake**: ∫1/x dx = ln x + C\n- **Correct**: ∫1/x dx = ln|x| + C (absolute value!)\n\n- **Mist..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Calculus Mistakes",
+    "subsection": "Maxima/Minima",
+    "text": "- **Mistake**: f'(c) = 0 means c is a maximum or minimum\n- **Correct**: c is only a critical point. Check second derivative or sign change\n\n- **Mistake**: Forgetting to check endpoints for closed inte..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Trigonometry Mistakes",
+    "subsection": "Basic Identities",
+    "text": "- **Mistake**: sin(A + B) = sin A + sin B\n- **Correct**: sin(A + B) = sin A cos B + cos A sin B\n\n- **Mistake**: sin⁻¹(sin x) = x for all x\n- **Correct**: Only for x ∈ [-π/2, π/2]. Otherwise, use princ..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Trigonometry Mistakes",
+    "subsection": "Inverse Trigonometric",
+    "text": "- **Mistake**: tan⁻¹(1/x) = cot⁻¹x\n- **Correct**: This is only true for x > 0\n\n- **Mistake**: sin⁻¹x + cos⁻¹x = π\n- **Correct**: sin⁻¹x + cos⁻¹x = π/2..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Trigonometry Mistakes",
+    "subsection": "Triangle Problems",
+    "text": "- **Mistake**: Using sine rule when cosine rule is needed\n- **Correct**: Use cosine rule when you have SSS or SAS\n\n---..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Coordinate Geometry Mistakes",
+    "subsection": "Straight Lines",
+    "text": "- **Mistake**: Slope of vertical line is 0\n- **Correct**: Slope of vertical line is undefined (∞)\n\n- **Mistake**: Lines y = 2x + 1 and y = 2x + 3 intersect\n- **Correct**: Parallel lines (same slope) n..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Coordinate Geometry Mistakes",
+    "subsection": "Circles",
+    "text": "- **Mistake**: Center of x² + y² + 4x - 6y + 4 = 0 is (4, -6)\n- **Correct**: Center is (-2, 3). For x² + y² + 2gx + 2fy + c = 0, center = (-g, -f)..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Coordinate Geometry Mistakes",
+    "subsection": "Conics",
+    "text": "- **Mistake**: For x²/16 + y²/25 = 1, major axis is along x\n- **Correct**: Major axis is along y (since 25 > 16)\n\n- **Mistake**: Eccentricity e = b/a for ellipse\n- **Correct**: e = √(1 - b²/a²) = c/a ..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Probability Mistakes",
+    "subsection": "Basic Probability",
+    "text": "- **Mistake**: P(A ∪ B) = P(A) + P(B)\n- **Correct**: P(A ∪ B) = P(A) + P(B) - P(A ∩ B) for non-mutually exclusive events\n\n- **Mistake**: P(A) × P(B) for any two events\n- **Correct**: This only works f..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Probability Mistakes",
+    "subsection": "Conditional Probability",
+    "text": "- **Mistake**: P(A|B) = P(B|A)\n- **Correct**: P(A|B) = P(A∩B)/P(B), may not equal P(B|A)..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Probability Mistakes",
+    "subsection": "Counting",
+    "text": "- **Mistake**: Confusing permutation and combination\n- **Correct**: Permutation when order matters, combination when it doesn't\n\n---..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Complex Numbers Mistakes",
+    "subsection": "",
+    "text": "- **Mistake**: |z₁ + z₂| = |z₁| + |z₂|\n- **Correct**: |z₁ + z₂| ≤ |z₁| + |z₂| (triangle inequality)\n\n- **Mistake**: arg(z₁ · z₂) during principal value calculation\n- **Correct**: Adjust to keep result..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Matrices and Determinants Mistakes",
+    "subsection": "",
+    "text": "- **Mistake**: AB = BA for matrices\n- **Correct**: Matrix multiplication is NOT commutative in general\n\n- **Mistake**: |A + B| = |A| + |B|\n- **Correct**: No such property. But |AB| = |A||B|\n\n- **Mista..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "Vectors Mistakes",
+    "subsection": "",
+    "text": "- **Mistake**: **a** × **b** = **b** × **a**\n- **Correct**: **a** × **b** = -(**b** × **a**) (anti-commutative)\n\n- **Mistake**: |**a** · **b**| = |**a**| × |**b**|\n- **Correct**: |**a** · **b**| = |**..."
+  },
+  {
+    "source": "common_mistakes",
+    "section": "General Problem-Solving Mistakes",
+    "subsection": "",
+    "text": "1. **Not reading question carefully**: Missing \"exactly\", \"at least\", \"integer solutions\"\n2. **Unit errors**: Mixing radians and degrees in trigonometry\n3. **Sign errors**: Especially in long calculat..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Introduction",
+    "subsection": "",
+    "text": "# Complex Numbers - JEE Mathematics Knowledge Base..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Basic Concepts",
+    "subsection": "Definition",
+    "text": "A complex number z = a + ib where:\n- a = Real part = Re(z)\n- b = Imaginary part = Im(z)\n- i = √(-1), i² = -1..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Basic Concepts",
+    "subsection": "Powers of i",
+    "text": "- i¹ = i\n- i² = -1\n- i³ = -i\n- i⁴ = 1\n- i^(4k+r) = iʳ..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Basic Concepts",
+    "subsection": "Equality",
+    "text": "a + ib = c + id ⟺ a = c and b = d\n\n---..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Representations",
+    "subsection": "Cartesian Form",
+    "text": "z = x + iy..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Representations",
+    "subsection": "Polar/Trigonometric Form",
+    "text": "z = r(cos θ + i sin θ) = r cis θ\nwhere:\n- r = |z| = √(x² + y²) (modulus)\n- θ = arg(z) = tan⁻¹(y/x) (argument)..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Representations",
+    "subsection": "Exponential Form",
+    "text": "z = re^(iθ) (Euler's form)..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Representations",
+    "subsection": "Argand Plane",
+    "text": "Complex number z = x + iy represented as point (x, y)\n\n---..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Operations",
+    "subsection": "Addition/Subtraction",
+    "text": "(a + ib) ± (c + id) = (a ± c) + i(b ± d)..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Operations",
+    "subsection": "Multiplication",
+    "text": "(a + ib)(c + id) = (ac - bd) + i(ad + bc)\n\nIn polar form: z₁z₂ = r₁r₂[cos(θ₁ + θ₂) + i sin(θ₁ + θ₂)]..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Operations",
+    "subsection": "Division",
+    "text": "(a + ib)/(c + id) = (a + ib)(c - id)/(c² + d²)\n\nIn polar form: z₁/z₂ = (r₁/r₂)[cos(θ₁ - θ₂) + i sin(θ₁ - θ₂)]\n\n---..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Conjugate and Modulus",
+    "subsection": "Complex Conjugate",
+    "text": "z̄ = a - ib (if z = a + ib)..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Conjugate and Modulus",
+    "subsection": "Properties of Conjugate",
+    "text": "- z + z̄ = 2Re(z)\n- z - z̄ = 2i Im(z)\n- z × z̄ = |z|² = a² + b²\n- (z̄)̄ = z\n- z₁ + z₂ = z̄₁ + z̄₂\n- z₁z₂ = z̄₁z̄₂\n- (z₁/z₂) = z̄₁/z̄₂\n- z̄ = z ⟺ z is real\n- z̄ = -z ⟺ z is purely imaginary..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Conjugate and Modulus",
+    "subsection": "Modulus",
+    "text": "|z| = √(x² + y²) = √(zz̄)..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Conjugate and Modulus",
+    "subsection": "Properties of Modulus",
+    "text": "- |z| ≥ 0, |z| = 0 ⟺ z = 0\n- |z̄| = |z|\n- |z₁z₂| = |z₁||z₂|\n- |z₁/z₂| = |z₁|/|z₂|\n- |z₁ + z₂| ≤ |z₁| + |z₂| (Triangle inequality)\n- ||z₁| - |z₂|| ≤ |z₁ - z₂|\n- |z₁ + z₂|² + |z₁ - z₂|² = 2(|z₁|² + |z₂|..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Argument",
+    "subsection": "Definition",
+    "text": "arg(z) = θ where z = |z|(cos θ + i sin θ)..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Argument",
+    "subsection": "Principal Argument",
+    "text": "θ ∈ (-π, π] or [0, 2π)..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Argument",
+    "subsection": "Properties",
+    "text": "- arg(z₁z₂) = arg(z₁) + arg(z₂)\n- arg(z₁/z₂) = arg(z₁) - arg(z₂)\n- arg(zⁿ) = n × arg(z)\n- arg(z̄) = -arg(z)..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Argument",
+    "subsection": "Quadrant-wise Principal Argument",
+    "text": "For z = x + iy:\n- Q1 (x > 0, y > 0): θ = tan⁻¹(y/x)\n- Q2 (x < 0, y > 0): θ = π + tan⁻¹(y/x)\n- Q3 (x < 0, y < 0): θ = -π + tan⁻¹(y/x)\n- Q4 (x > 0, y < 0): θ = tan⁻¹(y/x)\n\n---..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "De Moivre's Theorem",
+    "subsection": "Statement",
+    "text": "(cos θ + i sin θ)ⁿ = cos(nθ) + i sin(nθ)..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "De Moivre's Theorem",
+    "subsection": "Applications",
+    "text": "- Finding powers of complex numbers\n- Finding nth roots\n\n---..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Roots of Unity",
+    "subsection": "nth Roots of Unity",
+    "text": "Solutions of zⁿ = 1:\nz = e^(2πik/n) = cos(2πk/n) + i sin(2πk/n)\nfor k = 0, 1, 2, ..., n-1..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Roots of Unity",
+    "subsection": "Cube Roots of Unity",
+    "text": "z³ = 1: z = 1, ω, ω²\nwhere ω = (-1 + i√3)/2\n\n**Properties of ω**:\n- ω³ = 1\n- 1 + ω + ω² = 0\n- ω² = ω̄\n- ω² = (-1 - i√3)/2..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Roots of Unity",
+    "subsection": "Fourth Roots of Unity",
+    "text": "1, i, -1, -i\n\n---..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "nth Roots of Complex Numbers",
+    "subsection": "Formula",
+    "text": "For zⁿ = w where w = r(cos α + i sin α):\nz = r^(1/n)[cos((α + 2πk)/n) + i sin((α + 2πk)/n)]\nfor k = 0, 1, 2, ..., n-1\n\n---..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Geometry of Complex Numbers",
+    "subsection": "Distance",
+    "text": "|z₁ - z₂| = distance between z₁ and z₂..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Geometry of Complex Numbers",
+    "subsection": "Midpoint",
+    "text": "(z₁ + z₂)/2..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Geometry of Complex Numbers",
+    "subsection": "Section Formula",
+    "text": "Internal division in ratio m:n: (mz₂ + nz₁)/(m + n)..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Geometry of Complex Numbers",
+    "subsection": "Centroid of Triangle",
+    "text": "(z₁ + z₂ + z₃)/3..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Geometry of Complex Numbers",
+    "subsection": "Equation of Line",
+    "text": "- Im[(z - z₁)/(z₂ - z₁)] = 0 (line through z₁, z₂)\n- z̄a + za̅ + b = 0 (general line, b is real)..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Geometry of Complex Numbers",
+    "subsection": "Equation of Circle",
+    "text": "|z - z₀| = r (center z₀, radius r)\nor zz̄ + az̄ + āz + b = 0 where b is real..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Geometry of Complex Numbers",
+    "subsection": "Perpendicular Bisector",
+    "text": "|z - z₁| = |z - z₂|\n\n---..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Important Loci",
+    "subsection": "|z - z₁| = |z - z₂|",
+    "text": "Perpendicular bisector of z₁z₂..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Important Loci",
+    "subsection": "|z - z₁| + |z - z₂| = 2a",
+    "text": "Ellipse with foci z₁, z₂ (if 2a > |z₁ - z₂|)..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Important Loci",
+    "subsection": "|z - z₁| - |z - z₂| = 2a",
+    "text": "Hyperbola with foci z₁, z₂..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Important Loci",
+    "subsection": "arg(z - z₁) = θ",
+    "text": "Ray from z₁ at angle θ..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "Important Loci",
+    "subsection": "arg[(z - z₁)/(z - z₂)] = α",
+    "text": "Arc of circle (constant)\n\n---..."
+  },
+  {
+    "source": "complex_numbers",
+    "section": "JEE-Specific Tips for Complex Numbers",
+    "subsection": "",
+    "text": "1. **For multiplication/division**: Use polar form for easier calculation\n2. **For powers and roots**: Use De Moivre's theorem\n3. **For geometric problems**: Convert to |z - a| form\n4. **For ω problem..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Introduction",
+    "subsection": "",
+    "text": "# Coordinate Geometry - JEE Mathematics Knowledge Base..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Basics of Coordinate System",
+    "subsection": "Distance Formula",
+    "text": "Distance between P(x₁, y₁) and Q(x₂, y₂):\n**d = √[(x₂ - x₁)² + (y₂ - y₁)²]**..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Basics of Coordinate System",
+    "subsection": "Section Formula",
+    "text": "Point dividing line joining (x₁, y₁) and (x₂, y₂):\n- **Internal division (m:n)**: ((mx₂ + nx₁)/(m+n), (my₂ + ny₁)/(m+n))\n- **External division (m:n)**: ((mx₂ - nx₁)/(m-n), (my₂ - ny₁)/(m-n))\n- **Midpo..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Basics of Coordinate System",
+    "subsection": "Area of Triangle",
+    "text": "For vertices (x₁, y₁), (x₂, y₂), (x₃, y₃):\n**Area = (1/2)|x₁(y₂ - y₃) + x₂(y₃ - y₁) + x₃(y₁ - y₂)|**..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Basics of Coordinate System",
+    "subsection": "Collinearity Condition",
+    "text": "Three points are collinear if area = 0\n\n---..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Straight Lines",
+    "subsection": "Slope",
+    "text": "**m = (y₂ - y₁)/(x₂ - x₁) = tan θ**\nwhere θ is angle with positive x-axis..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Straight Lines",
+    "subsection": "Forms of Line Equation",
+    "text": "- **Slope-intercept**: y = mx + c\n- **Point-slope**: y - y₁ = m(x - x₁)\n- **Two-point**: (y - y₁)/(y₂ - y₁) = (x - x₁)/(x₂ - x₁)\n- **Intercept**: x/a + y/b = 1\n- **Normal**: x cos α + y sin α = p\n- **..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Straight Lines",
+    "subsection": "Distance from Point to Line",
+    "text": "Distance from (x₁, y₁) to ax + by + c = 0:\n**d = |ax₁ + by₁ + c| / √(a² + b²)**..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Straight Lines",
+    "subsection": "Distance Between Parallel Lines",
+    "text": "For ax + by + c₁ = 0 and ax + by + c₂ = 0:\n**d = |c₁ - c₂| / √(a² + b²)**..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Straight Lines",
+    "subsection": "Angle Between Lines",
+    "text": "**tan θ = |(m₁ - m₂)/(1 + m₁m₂)|**\n- Parallel: m₁ = m₂\n- Perpendicular: m₁ × m₂ = -1..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Straight Lines",
+    "subsection": "Family of Lines",
+    "text": "Lines through intersection of L₁ = 0 and L₂ = 0:\n**L₁ + λL₂ = 0**..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Straight Lines",
+    "subsection": "Angle Bisectors",
+    "text": "For lines a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0:\n**(a₁x + b₁y + c₁)/√(a₁² + b₁²) = ±(a₂x + b₂y + c₂)/√(a₂² + b₂²)**\n\n---..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Circles",
+    "subsection": "Standard Form",
+    "text": "**(x - h)² + (y - k)² = r²**\nCenter: (h, k), Radius: r..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Circles",
+    "subsection": "General Form",
+    "text": "**x² + y² + 2gx + 2fy + c = 0**\n- Center: (-g, -f)\n- Radius: √(g² + f² - c)\n- Condition for real circle: g² + f² - c > 0..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Circles",
+    "subsection": "Parametric Form",
+    "text": "x = h + r cos θ, y = k + r sin θ..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Circles",
+    "subsection": "Position of Point",
+    "text": "For x² + y² + 2gx + 2fy + c = 0 and point (x₁, y₁):\n- S₁ = x₁² + y₁² + 2gx₁ + 2fy₁ + c\n- S₁ < 0: Inside, S₁ = 0: On circle, S₁ > 0: Outside..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Circles",
+    "subsection": "Tangent to Circle",
+    "text": "At point (x₁, y₁) on x² + y² = r²:\n**xx₁ + yy₁ = r²**\n\nCondition for y = mx + c to be tangent:\n**c = ±r√(1 + m²)**..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Circles",
+    "subsection": "Length of Tangent",
+    "text": "From external point (x₁, y₁): **√S₁**..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Circles",
+    "subsection": "Chord of Contact",
+    "text": "From (x₁, y₁) to x² + y² = r²:\n**xx₁ + yy₁ = r²**..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Circles",
+    "subsection": "Common Chord",
+    "text": "Equation: **S₁ - S₂ = 0**..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Circles",
+    "subsection": "Radical Axis",
+    "text": "Locus of points with equal tangent lengths to two circles:\n**S₁ - S₂ = 0**\n\n---..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Parabola",
+    "subsection": "Standard Forms",
+    "text": "- y² = 4ax (opens right): Focus (a, 0), Directrix x = -a\n- y² = -4ax (opens left): Focus (-a, 0), Directrix x = a\n- x² = 4ay (opens up): Focus (0, a), Directrix y = -a\n- x² = -4ay (opens down): Focus ..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Parabola",
+    "subsection": "Properties",
+    "text": "- Vertex: (0, 0)\n- Axis: y = 0 (for y² = 4ax)\n- Latus Rectum: |4a|, endpoints (a, ±2a)..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Parabola",
+    "subsection": "Parametric Form",
+    "text": "For y² = 4ax: x = at², y = 2at..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Parabola",
+    "subsection": "Tangent",
+    "text": "At (at², 2at): **ty = x + at²**\nWith slope m: **y = mx + a/m**..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Parabola",
+    "subsection": "Normal",
+    "text": "At (at², 2at): **y + tx = 2at + at³**..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Parabola",
+    "subsection": "Focal Chord",
+    "text": "If P(at₁², 2at₁) and Q(at₂², 2at₂) lie on focal chord: **t₁t₂ = -1**\n\n---..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Ellipse",
+    "subsection": "Standard Form",
+    "text": "**x²/a² + y²/b² = 1** (a > b)..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Ellipse",
+    "subsection": "Properties",
+    "text": "- Center: (0, 0)\n- Foci: (±ae, 0) where e = √(1 - b²/a²)\n- Directrices: x = ±a/e\n- Vertices: (±a, 0), (0, ±b)\n- Latus Rectum: 2b²/a..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Ellipse",
+    "subsection": "Eccentricity",
+    "text": "**e = √(1 - b²/a²)** where 0 < e < 1..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Ellipse",
+    "subsection": "Relationship",
+    "text": "**b² = a²(1 - e²)** or **a²e² = a² - b²**..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Ellipse",
+    "subsection": "Parametric Form",
+    "text": "x = a cos θ, y = b sin θ..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Ellipse",
+    "subsection": "Tangent",
+    "text": "At (x₁, y₁): **xx₁/a² + yy₁/b² = 1**\nAt (a cos θ, b sin θ): **(x cos θ)/a + (y sin θ)/b = 1**\nWith slope m: **y = mx ± √(a²m² + b²)**..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Ellipse",
+    "subsection": "Normal",
+    "text": "At (a cos θ, b sin θ): **ax/cos θ - by/sin θ = a² - b²**..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Ellipse",
+    "subsection": "Focal Property",
+    "text": "Sum of distances from any point to foci = 2a\n\n---..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Hyperbola",
+    "subsection": "Standard Form",
+    "text": "**x²/a² - y²/b² = 1**..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Hyperbola",
+    "subsection": "Properties",
+    "text": "- Center: (0, 0)\n- Foci: (±ae, 0) where e = √(1 + b²/a²)\n- Directrices: x = ±a/e\n- Vertices: (±a, 0)\n- Transverse axis: 2a\n- Conjugate axis: 2b\n- Latus Rectum: 2b²/a..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Hyperbola",
+    "subsection": "Eccentricity",
+    "text": "**e = √(1 + b²/a²)** where e > 1..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Hyperbola",
+    "subsection": "Relationship",
+    "text": "**b² = a²(e² - 1)** or **a²e² = a² + b²**..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Hyperbola",
+    "subsection": "Asymptotes",
+    "text": "**y = ±(b/a)x** or **x²/a² - y²/b² = 0**..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Hyperbola",
+    "subsection": "Parametric Form",
+    "text": "x = a sec θ, y = b tan θ..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Hyperbola",
+    "subsection": "Tangent",
+    "text": "At (x₁, y₁): **xx₁/a² - yy₁/b² = 1**..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Hyperbola",
+    "subsection": "Rectangular Hyperbola",
+    "text": "When a = b: xy = c² (after 45° rotation)..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "Hyperbola",
+    "subsection": "Focal Property",
+    "text": "|PF₁ - PF₂| = 2a (difference of distances to foci)\n\n---..."
+  },
+  {
+    "source": "coordinate_geometry",
+    "section": "JEE-Specific Tips for Coordinate Geometry",
+    "subsection": "",
+    "text": "1. **For circles**: Use S = 0 form for tangent, chord of contact, radical axis\n2. **For conics**: Remember parametric forms for tangent/normal problems\n3. **For locus**: Eliminate parameter systematic..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Introduction",
+    "subsection": "",
+    "text": "# Differential Equations - JEE Mathematics Knowledge Base..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Basic Concepts",
+    "subsection": "Definition",
+    "text": "An equation involving derivatives of a dependent variable with respect to independent variable(s)...."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Basic Concepts",
+    "subsection": "Order",
+    "text": "Highest order derivative present in the equation...."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Basic Concepts",
+    "subsection": "Degree",
+    "text": "Power of highest order derivative (when equation is polynomial in derivatives).\n- Must be free from radicals and fractions in derivatives\n- Not defined if transcendental functions of derivatives prese..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Formation of Differential Equations",
+    "subsection": "From General Solution",
+    "text": "Given y = f(x, c₁, c₂, ..., cₙ) with n arbitrary constants:\n1. Differentiate n times\n2. Eliminate all n constants\nResult: Differential equation of order n..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Formation of Differential Equations",
+    "subsection": "Example",
+    "text": "y = Ae^(2x) + Be^(-x) has 2 constants\n- Differentiate twice to get y', y''\n- Eliminate A, B to get: y'' - y' - 2y = 0\n\n---..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "First Order Differential Equations",
+    "subsection": "Variable Separable",
+    "text": "**Form**: f(x)dx = g(y)dy\n\n**Method**:\n1. Separate variables\n2. Integrate both sides\n3. ∫f(x)dx = ∫g(y)dy + C..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "First Order Differential Equations",
+    "subsection": "Homogeneous Equations",
+    "text": "**Form**: dy/dx = F(y/x) or M(x,y)dx + N(x,y)dy = 0\nwhere M, N are homogeneous of same degree\n\n**Method**:\n1. Substitute y = vx (so dy/dx = v + x dv/dx)\n2. Reduce to variable separable\n3. Solve and su..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "First Order Differential Equations",
+    "subsection": "Equations Reducible to Homogeneous",
+    "text": "**Form**: dy/dx = (ax + by + c)/(dx + ey + f)\n\n**Method**:\n- If a/d = b/e, substitute ax + by = t\n- Otherwise, shift origin to intersection point..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "First Order Differential Equations",
+    "subsection": "Linear First Order",
+    "text": "**Form**: dy/dx + P(x)y = Q(x)\n\n**Method**:\n1. Integrating Factor (IF) = e^(∫P dx)\n2. Solution: y × IF = ∫(Q × IF)dx + C..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "First Order Differential Equations",
+    "subsection": "Bernoulli Equation",
+    "text": "**Form**: dy/dx + P(x)y = Q(x)yⁿ (n ≠ 0, 1)\n\n**Method**:\n1. Divide by yⁿ\n2. Substitute z = y^(1-n)\n3. Get linear equation in z\n\n---..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Second Order Linear Equations",
+    "subsection": "Constant Coefficients",
+    "text": "**Form**: ay'' + by' + cy = 0\n\n**Method**: Assume y = e^(mx), get auxiliary equation:\n**am² + bm + c = 0**..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Second Order Linear Equations",
+    "subsection": "Three Cases",
+    "text": "**Case 1**: Two distinct real roots m₁, m₂\ny = C₁e^(m₁x) + C₂e^(m₂x)\n\n**Case 2**: Equal real roots m = m₁ = m₂\ny = (C₁ + C₂x)e^(mx)\n\n**Case 3**: Complex conjugate roots m = α ± iβ\ny = e^(αx)(C₁ cos βx..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Special Types",
+    "subsection": "Exact Differential Equations",
+    "text": "**Form**: M(x,y)dx + N(x,y)dy = 0\n**Condition**: ∂M/∂y = ∂N/∂x\n\n**Solution**: Find F(x,y) such that ∂F/∂x = M and ∂F/∂y = N\nThen F(x,y) = C..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Special Types",
+    "subsection": "Reducible to Exact",
+    "text": "If (∂M/∂y - ∂N/∂x)/N = f(x) alone, IF = e^(∫f(x)dx)\nIf (∂N/∂x - ∂M/∂y)/M = g(y) alone, IF = e^(∫g(y)dy)\n\n---..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Applications",
+    "subsection": "Growth and Decay",
+    "text": "**Model**: dy/dt = ky\n**Solution**: y = y₀e^(kt)\n- k > 0: Exponential growth\n- k < 0: Exponential decay..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Applications",
+    "subsection": "Newton's Law of Cooling",
+    "text": "dT/dt = -k(T - Tₛ)\nwhere Tₛ = surrounding temperature\n\n**Solution**: T - Tₛ = (T₀ - Tₛ)e^(-kt)..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Applications",
+    "subsection": "Population Models",
+    "text": "**Malthusian**: dP/dt = kP\nSolution: P = P₀e^(kt)\n\n**Logistic**: dP/dt = kP(1 - P/K)\nwhere K = carrying capacity..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Applications",
+    "subsection": "Orthogonal Trajectories",
+    "text": "Given family F(x, y, c) = 0:\n1. Find dy/dx = f(x, y)\n2. Replace by dx/dy = -1/f(x, y) or dy/dx = -1/f(x, y)\n3. Solve new equation\n\n---..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Geometrical Applications",
+    "subsection": "Tangent and Normal",
+    "text": "At point (x, y) on curve:\n- Slope of tangent: dy/dx\n- Equation of tangent: Y - y = (dy/dx)(X - x)\n- Equation of normal: Y - y = -(dx/dy)(X - x)..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Geometrical Applications",
+    "subsection": "Length Formulas",
+    "text": "- Length of tangent: |y√(1 + (dx/dy)²)|\n- Length of normal: |y√(1 + (dy/dx)²)|\n- Length of subtangent: |y(dx/dy)|\n- Length of subnormal: |y(dy/dx)|\n\n---..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Important Standard Forms",
+    "subsection": "dy/dx = y/x",
+    "text": "Solution: y = Cx..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Important Standard Forms",
+    "subsection": "dy/dx = -x/y",
+    "text": "Solution: x² + y² = C²..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Important Standard Forms",
+    "subsection": "dy/dx = (y-a)/(x-b)",
+    "text": "Solution: y - a = C(x - b)..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Important Standard Forms",
+    "subsection": "dy/dx = tan(y/x)",
+    "text": "Substitute y = vx, solve for v..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Important Standard Forms",
+    "subsection": "x dy - y dx = 0",
+    "text": "Solution: y/x = C..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Important Standard Forms",
+    "subsection": "x dy + y dx = 0",
+    "text": "Solution: xy = C..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Important Standard Forms",
+    "subsection": "x dx + y dy = 0",
+    "text": "Solution: x² + y² = C\n\n---..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Initial Value Problems",
+    "subsection": "Definition",
+    "text": "Differential equation + initial condition(s)..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "Initial Value Problems",
+    "subsection": "Method",
+    "text": "1. Find general solution with arbitrary constant(s)\n2. Apply initial conditions to find specific values\n3. Write particular solution\n\n---..."
+  },
+  {
+    "source": "differential_equations",
+    "section": "JEE-Specific Tips for Differential Equations",
+    "subsection": "",
+    "text": "1. **Identify type first**: Check for separable, homogeneous, linear, Bernoulli\n2. **For linear equations**: Always find IF = e^(∫P dx)\n3. **For homogeneous**: Check if substitution y = vx simplifies\n..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Introduction",
+    "subsection": "",
+    "text": "# JEE Mathematics Exam Tips and Strategies..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Time Management",
+    "subsection": "Paper Structure",
+    "text": "- **JEE Main**: 25 questions (20 MCQ + 5 Numerical), 100 marks\n- **JEE Advanced**: Two papers, 3 hours each, ~54 questions total..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Time Management",
+    "subsection": "Time Allocation",
+    "text": "- **Easy questions**: 1-2 minutes\n- **Medium questions**: 3-4 minutes\n- **Difficult questions**: 5-7 minutes\n- **Leave if stuck**: Move on after 5 minutes, return later..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Time Management",
+    "subsection": "Suggested Order",
+    "text": "1. First pass: Attempt all easy/familiar questions\n2. Second pass: Medium difficulty questions\n3. Third pass: Difficult/time-consuming problems\n4. Final: Review and guesses (if no negative marking for..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Topic-Wise Speed Tips",
+    "subsection": "Calculus (Fastest to Solve)",
+    "text": "- **Limits**: Standard limits save time - memorize them\n- **Derivatives**: Know standard derivatives by heart\n- **Integration**: Recognize patterns quickly\n- **Maxima/Minima**: Second derivative test ..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Topic-Wise Speed Tips",
+    "subsection": "Algebra (Moderate Speed)",
+    "text": "- **Quadratics**: Vieta's formulas faster than solving\n- **Progressions**: Use properties, not formulas directly\n- **Logarithms**: Convert to exponential when stuck..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Topic-Wise Speed Tips",
+    "subsection": "Coordinate Geometry (Can Be Time-Consuming)",
+    "text": "- **Avoid lengthy calculations**: Use parametric forms\n- **Homogenization**: For intersection problems\n- **Standard results**: Memorize for conics..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Topic-Wise Speed Tips",
+    "subsection": "Probability (Usually Straightforward)",
+    "text": "- **Draw tree diagrams**: For complex problems\n- **Complement rule**: Often faster\n\n---..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Calculation Shortcuts",
+    "subsection": "Quick Multiplication",
+    "text": "- 25 × n = (n/4) × 100\n- 125 × n = (n/8) × 1000\n- Numbers near 100: (100-a)(100-b) = (100-a-b)×100 + ab..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Calculation Shortcuts",
+    "subsection": "Squares Near 50",
+    "text": "- (50+n)² = 2500 + 100n + n²\n- (50-n)² = 2500 - 100n + n²..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Calculation Shortcuts",
+    "subsection": "Quick Fractions",
+    "text": "- 1/7 = 0.142857... (repeating)\n- 1/9 = 0.111..., 2/9 = 0.222...\n- 1/11 = 0.0909..., 1/13 = 0.076923...\n\n---..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Formula Quick Reference",
+    "subsection": "Must-Memorize Formulas",
+    "text": "**Quadratic**: x = (-b ± √(b²-4ac))/2a\n\n**AP**: aₙ = a + (n-1)d, Sₙ = n/2(2a + (n-1)d)\n\n**GP**: aₙ = ar^(n-1), Sₙ = a(rⁿ-1)/(r-1), S∞ = a/(1-r)\n\n**Trigonometry**:\n- sin²θ + cos²θ = 1\n- sin 2θ = 2 sin ..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Pattern Recognition",
+    "subsection": "When to Use Which Method",
+    "text": "**Substitution Works When**:\n- Expression simplifies with y = f(x)\n- Symmetry in problem (a+b type substitutions)\n- Trigonometric functions present\n\n**Components Method Works When**:\n- Vectors, comple..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Common Trap Detection",
+    "subsection": "Watch Out For",
+    "text": "1. **\"Exactly\" vs \"At least\"**: Different formulas\n2. **\"Integer\" solutions**: Check if answer is whole number\n3. **Domain restrictions**: logₐx valid only for x > 0\n4. **Unit circle values**: Don't c..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Common Trap Detection",
+    "subsection": "Quick Verification Methods",
+    "text": "1. **Dimensional check**: Units should match\n2. **Boundary values**: Does answer make sense at extremes?\n3. **Special cases**: Test with simple values\n4. **Symmetry check**: Symmetric input should giv..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Answer Format Tips",
+    "subsection": "Numerical Answer Types",
+    "text": "**For Decimal Answers**:\n- Round to required decimal places\n- Check if exact fraction was expected\n\n**For Integer Answers**:\n- If you get non-integer, recheck\n- Common errors: off-by-one, sign errors\n..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Stress Management During Exam",
+    "subsection": "If Stuck on a Problem",
+    "text": "1. **Skip and mark**: Don't spend more than 5-7 minutes\n2. **Deep breath**: Clear your mind before next question\n3. **Return later**: Fresh perspective often helps..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Stress Management During Exam",
+    "subsection": "If Running Out of Time",
+    "text": "1. **Prioritize easy points**: Attempt simpler remaining questions\n2. **Educated guesses**: For MCQ without negative marking\n3. **Partial solutions**: Write what you know for partial credit..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Stress Management During Exam",
+    "subsection": "Mental Tricks",
+    "text": "- **Positive self-talk**: \"I've prepared for this\"\n- **Focus on present**: One question at a time\n- **Trust your preparation**: First instinct often correct\n\n---..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Pre-Exam Preparation",
+    "subsection": "Day Before",
+    "text": "- Light revision of formulas only\n- No new topics\n- Good sleep (7-8 hours)\n- Organize materials (admit card, pens, calculator if allowed)..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Pre-Exam Preparation",
+    "subsection": "Exam Day",
+    "text": "- Healthy breakfast\n- Arrive early\n- Read all instructions carefully\n- Start with confident topics\n\n---..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Post-Question Checklist",
+    "subsection": "",
+    "text": "Before moving to next question:\n- [ ] Read question again - answered what was asked?\n- [ ] Units correct?\n- [ ] Sign correct?\n- [ ] Simplified completely?\n- [ ] Bubbled/entered correctly?\n\n---..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Topic Priority (Based on Weightage)",
+    "subsection": "High Weightage (Focus More)",
+    "text": "1. Calculus (Limits, Derivatives, Integrals)\n2. Coordinate Geometry (Conics, Circles)\n3. Algebra (Quadratics, Complex Numbers)\n4. 3D Geometry and Vectors..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Topic Priority (Based on Weightage)",
+    "subsection": "Medium Weightage",
+    "text": "1. Probability\n2. Matrices and Determinants\n3. Trigonometry\n4. Sequences and Series..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Topic Priority (Based on Weightage)",
+    "subsection": "Lower Weightage (Don't Neglect)",
+    "text": "1. Binomial Theorem\n2. Statistics\n3. Mathematical Reasoning\n4. Sets and Relations\n\n---..."
+  },
+  {
+    "source": "jee_exam_tips",
+    "section": "Final Reminders",
+    "subsection": "",
+    "text": "1. **Practice under exam conditions**: Timed tests\n2. **Analyze mistakes**: Don't repeat same errors\n3. **Focus on accuracy**: Speed comes with practice\n4. **Stay healthy**: Physical fitness aids ment..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Introduction",
+    "subsection": "",
+    "text": "# Linear Algebra - JEE Mathematics Knowledge Base..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Vectors",
+    "subsection": "Definition",
+    "text": "A vector has both magnitude and direction.\nNotation: **a** or →a, with magnitude |**a**| or ||**a**||..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Vectors",
+    "subsection": "Types of Vectors",
+    "text": "- **Zero Vector**: Magnitude = 0, arbitrary direction\n- **Unit Vector**: Magnitude = 1, denoted â = **a**/|**a**|\n- **Position Vector**: Vector from origin to a point\n- **Co-initial Vectors**: Same st..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Vectors",
+    "subsection": "Standard Unit Vectors",
+    "text": "- î = (1, 0, 0) along x-axis\n- ĵ = (0, 1, 0) along y-axis\n- k̂ = (0, 0, 1) along z-axis\n\nAny vector: **r** = xî + yĵ + zk̂\n\n---..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Vector Operations",
+    "subsection": "Addition and Subtraction",
+    "text": "**a** + **b** = (a₁ + b₁)î + (a₂ + b₂)ĵ + (a₃ + b₃)k̂\n**a** - **b** = (a₁ - b₁)î + (a₂ - b₂)ĵ + (a₃ - b₃)k̂..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Vector Operations",
+    "subsection": "Scalar Multiplication",
+    "text": "k**a** = ka₁î + ka₂ĵ + ka₃k̂..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Vector Operations",
+    "subsection": "Magnitude",
+    "text": "|**a**| = √(a₁² + a₂² + a₃²)\n\n---..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Dot Product (Scalar Product)",
+    "subsection": "Definition",
+    "text": "**a** · **b** = |**a**| |**b**| cos θ\nwhere θ is angle between vectors..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Dot Product (Scalar Product)",
+    "subsection": "Component Form",
+    "text": "**a** · **b** = a₁b₁ + a₂b₂ + a₃b₃..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Dot Product (Scalar Product)",
+    "subsection": "Properties",
+    "text": "- **a** · **b** = **b** · **a** (commutative)\n- **a** · (**b** + **c**) = **a** · **b** + **a** · **c** (distributive)\n- **a** · **a** = |**a**|²\n- Perpendicular vectors: **a** · **b** = 0\n- Parallel ..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Dot Product (Scalar Product)",
+    "subsection": "Angle Between Vectors",
+    "text": "cos θ = (**a** · **b**) / (|**a**| |**b**|)..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Dot Product (Scalar Product)",
+    "subsection": "Projection",
+    "text": "Projection of **a** on **b** = (**a** · **b**) / |**b**|\nVector projection = [(**a** · **b**) / |**b**|²] **b**\n\n---..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Cross Product (Vector Product)",
+    "subsection": "Definition",
+    "text": "**a** × **b** = |**a**| |**b**| sin θ n̂\nwhere n̂ is unit vector perpendicular to both (right-hand rule)..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Cross Product (Vector Product)",
+    "subsection": "Component Form",
+    "text": "**a** × **b** = |î   ĵ   k̂ |\n               |a₁  a₂  a₃|\n               |b₁  b₂  b₃|\n\n= (a₂b₃ - a₃b₂)î - (a₁b₃ - a₃b₁)ĵ + (a₁b₂ - a₂b₁)k̂..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Cross Product (Vector Product)",
+    "subsection": "Properties",
+    "text": "- **a** × **b** = -(**b** × **a**) (anti-commutative)\n- **a** × **a** = **0**\n- Parallel vectors: **a** × **b** = **0**\n- î × ĵ = k̂, ĵ × k̂ = î, k̂ × î = ĵ..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Cross Product (Vector Product)",
+    "subsection": "Magnitude",
+    "text": "|**a** × **b**| = |**a**| |**b**| sin θ = Area of parallelogram..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Cross Product (Vector Product)",
+    "subsection": "Area of Triangle",
+    "text": "Area = (1/2)|**a** × **b**| for vectors from same vertex\n\n---..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Scalar Triple Product",
+    "subsection": "Definition",
+    "text": "[**a** **b** **c**] = **a** · (**b** × **c**)..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Scalar Triple Product",
+    "subsection": "Component Form",
+    "text": "[**a** **b** **c**] = |a₁  a₂  a₃|\n                        |b₁  b₂  b₃|\n                        |c₁  c₂  c₃|..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Scalar Triple Product",
+    "subsection": "Properties",
+    "text": "- Cyclic permutation: [**a** **b** **c**] = [**b** **c** **a**] = [**c** **a** **b**]\n- Anti-cyclic: [**a** **b** **c**] = -[**a** **c** **b**]\n- Coplanar vectors: [**a** **b** **c**] = 0..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Scalar Triple Product",
+    "subsection": "Volume of Parallelepiped",
+    "text": "Volume = |[**a** **b** **c**]|..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Scalar Triple Product",
+    "subsection": "Volume of Tetrahedron",
+    "text": "Volume = (1/6)|[**a** **b** **c**]|\n\n---..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Vector Triple Product",
+    "subsection": "Formula",
+    "text": "**a** × (**b** × **c**) = (**a** · **c**)**b** - (**a** · **b**)**c**\n(**a** × **b**) × **c** = (**a** · **c**)**b** - (**b** · **c**)**a**\n\n---..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Lines in Vector Form",
+    "subsection": "Equation of Line",
+    "text": "Through point **a** in direction **b**:\n**r** = **a** + λ**b**\n\nThrough two points **a** and **b**:\n**r** = **a** + λ(**b** - **a**) = (1-λ)**a** + λ**b**..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Lines in Vector Form",
+    "subsection": "Angle Between Lines",
+    "text": "cos θ = |(**b₁** · **b₂**) / (|**b₁**| |**b₂**|)|\nwhere **b₁**, **b₂** are direction vectors..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Lines in Vector Form",
+    "subsection": "Shortest Distance Between Parallel Lines",
+    "text": "d = |(**a₂** - **a₁**) × **b**| / |**b**|..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Lines in Vector Form",
+    "subsection": "Shortest Distance Between Skew Lines",
+    "text": "d = |[(**a₂** - **a₁**) · (**b₁** × **b₂**)]| / |**b₁** × **b₂**|\n\n---..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Planes in Vector Form",
+    "subsection": "Equation of Plane",
+    "text": "Normal form: **r** · **n** = d\nwhere **n** is normal vector, d is distance from origin\n\nThrough point **a** with normal **n**:\n(**r** - **a**) · **n** = 0\n\nThrough three points:\n**r** = **a** + λ(**b*..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Planes in Vector Form",
+    "subsection": "Angle Between Planes",
+    "text": "cos θ = |(**n₁** · **n₂**) / (|**n₁**| |**n₂**|)|..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Planes in Vector Form",
+    "subsection": "Angle Between Line and Plane",
+    "text": "sin θ = |(**b** · **n**) / (|**b**| |**n**|)|\nwhere **b** is direction of line, **n** is normal to plane..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Planes in Vector Form",
+    "subsection": "Distance from Point to Plane",
+    "text": "d = |**a** · **n** - d| / |**n**|\nwhere **a** is position vector of point\n\n---..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Section Formula",
+    "subsection": "Internal Division",
+    "text": "Point dividing **a** and **b** in ratio m:n internally:\n**r** = (n**a** + m**b**) / (m + n)..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Section Formula",
+    "subsection": "External Division",
+    "text": "**r** = (m**b** - n**a**) / (m - n)..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Section Formula",
+    "subsection": "Midpoint",
+    "text": "**r** = (**a** + **b**) / 2..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "Section Formula",
+    "subsection": "Centroid of Triangle",
+    "text": "**G** = (**a** + **b** + **c**) / 3\n\n---..."
+  },
+  {
+    "source": "linear_algebra",
+    "section": "JEE-Specific Tips for Vectors",
+    "subsection": "",
+    "text": "1. **For perpendicularity**: Use dot product = 0\n2. **For parallelism**: Use cross product = 0 or proportional components\n3. **For coplanarity**: Check scalar triple product = 0\n4. **For shortest dist..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Introduction",
+    "subsection": "",
+    "text": "# Matrices and Determinants - JEE Mathematics Knowledge Base..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Matrices - Basic Concepts",
+    "subsection": "Definition",
+    "text": "A matrix is a rectangular array of numbers arranged in rows and columns.\nOrder: m × n (m rows, n columns)..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Matrices - Basic Concepts",
+    "subsection": "Types of Matrices",
+    "text": "- **Row Matrix**: 1 × n\n- **Column Matrix**: m × 1\n- **Square Matrix**: n × n\n- **Diagonal Matrix**: aᵢⱼ = 0 for i ≠ j\n- **Scalar Matrix**: Diagonal with all diagonal elements equal\n- **Identity Matri..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Matrices - Basic Concepts",
+    "subsection": "Equality",
+    "text": "A = B iff both have same order and aᵢⱼ = bᵢⱼ for all i, j\n\n---..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Matrix Operations",
+    "subsection": "Addition/Subtraction",
+    "text": "(A ± B)ᵢⱼ = aᵢⱼ ± bᵢⱼ (must have same order)..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Matrix Operations",
+    "subsection": "Scalar Multiplication",
+    "text": "(kA)ᵢⱼ = k × aᵢⱼ..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Matrix Operations",
+    "subsection": "Matrix Multiplication",
+    "text": "If A is m×n and B is n×p, then AB is m×p\n(AB)ᵢⱼ = Σ(k=1 to n) aᵢₖbₖⱼ..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Matrix Operations",
+    "subsection": "Properties",
+    "text": "- AB ≠ BA in general (not commutative)\n- (AB)C = A(BC) (associative)\n- A(B + C) = AB + AC (distributive)\n- AI = IA = A\n- AO = OA = O\n\n---..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Transpose",
+    "subsection": "Definition",
+    "text": "(Aᵀ)ᵢⱼ = aⱼᵢ (interchange rows and columns)..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Transpose",
+    "subsection": "Properties",
+    "text": "- (Aᵀ)ᵀ = A\n- (A + B)ᵀ = Aᵀ + Bᵀ\n- (kA)ᵀ = kAᵀ\n- (AB)ᵀ = BᵀAᵀ..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Transpose",
+    "subsection": "Special Matrices",
+    "text": "- **Symmetric**: Aᵀ = A\n- **Skew-symmetric**: Aᵀ = -A\n- Any matrix = (1/2)(A + Aᵀ) + (1/2)(A - Aᵀ) (symmetric + skew-symmetric)\n\n---..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Determinants",
+    "subsection": "2×2 Determinant",
+    "text": "|a b|\n|c d| = ad - bc..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Determinants",
+    "subsection": "3×3 Determinant (Sarrus/Cofactor)",
+    "text": "|a₁ b₁ c₁|\n|a₂ b₂ c₂| = a₁(b₂c₃-b₃c₂) - b₁(a₂c₃-a₃c₂) + c₁(a₂b₃-a₃b₂)\n|a₃ b₃ c₃|..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Determinants",
+    "subsection": "Minor (Mᵢⱼ)",
+    "text": "Determinant of submatrix obtained by deleting row i and column j..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Determinants",
+    "subsection": "Cofactor (Cᵢⱼ)",
+    "text": "Cᵢⱼ = (-1)^(i+j) × Mᵢⱼ..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Determinants",
+    "subsection": "Expansion",
+    "text": "det(A) = Σ aᵢⱼCᵢⱼ along any row or column\n\n---..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Properties of Determinants",
+    "subsection": "Basic Properties",
+    "text": "1. det(Aᵀ) = det(A)\n2. Interchanging rows/columns changes sign\n3. If two rows/columns identical: det = 0\n4. Multiplying row/column by k multiplies det by k\n5. det(kA) = kⁿ det(A) for n×n matrix\n6. Add..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Properties of Determinants",
+    "subsection": "Special Determinants",
+    "text": "- det(I) = 1\n- det(diagonal matrix) = product of diagonal elements\n- det(triangular matrix) = product of diagonal elements\n\n---..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Adjoint and Inverse",
+    "subsection": "Adjoint (Adjugate)",
+    "text": "adj(A) = transpose of cofactor matrix..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Adjoint and Inverse",
+    "subsection": "Properties of Adjoint",
+    "text": "- A × adj(A) = adj(A) × A = det(A) × I\n- adj(AB) = adj(B) × adj(A)\n- adj(Aᵀ) = (adj(A))ᵀ\n- |adj(A)| = |A|^(n-1) for n×n matrix\n- adj(adj(A)) = |A|^(n-2) × A..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Adjoint and Inverse",
+    "subsection": "Inverse Matrix",
+    "text": "**A⁻¹ = adj(A) / det(A)** (exists only if det(A) ≠ 0)..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Adjoint and Inverse",
+    "subsection": "Properties of Inverse",
+    "text": "- AA⁻¹ = A⁻¹A = I\n- (A⁻¹)⁻¹ = A\n- (AB)⁻¹ = B⁻¹A⁻¹\n- (Aᵀ)⁻¹ = (A⁻¹)ᵀ\n- (kA)⁻¹ = (1/k)A⁻¹..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Adjoint and Inverse",
+    "subsection": "Singular and Non-singular",
+    "text": "- **Singular**: det(A) = 0, no inverse\n- **Non-singular**: det(A) ≠ 0, inverse exists\n\n---..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "System of Linear Equations",
+    "subsection": "Matrix Form",
+    "text": "AX = B..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "System of Linear Equations",
+    "subsection": "Cramer's Rule (n equations, n unknowns)",
+    "text": "x = Dₓ/D, y = Dᵧ/D, z = D_z/D\nwhere D = det(A), Dₓ = det(A with column replaced by B)..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "System of Linear Equations",
+    "subsection": "Consistency Conditions",
+    "text": "For AX = B:\n- **D ≠ 0**: Unique solution\n- **D = 0, Dₓ = Dᵧ = D_z = 0**: Infinite solutions\n- **D = 0, at least one Dᵢ ≠ 0**: No solution..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "System of Linear Equations",
+    "subsection": "Homogeneous System (AX = 0)",
+    "text": "- Always consistent (trivial solution X = 0)\n- **D ≠ 0**: Only trivial solution\n- **D = 0**: Infinite non-trivial solutions..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "System of Linear Equations",
+    "subsection": "Rank Method",
+    "text": "For augmented matrix [A|B]:\n- rank(A) = rank([A|B]) = n: Unique solution\n- rank(A) = rank([A|B]) < n: Infinite solutions\n- rank(A) ≠ rank([A|B]): No solution\n\n---..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Elementary Operations",
+    "subsection": "Row Operations",
+    "text": "- Rᵢ ↔ Rⱼ (interchange rows)\n- Rᵢ → kRᵢ (multiply row by non-zero k)\n- Rᵢ → Rᵢ + kRⱼ (add multiple of one row to another)..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Elementary Operations",
+    "subsection": "Row Echelon Form",
+    "text": "- First non-zero entry (pivot) of each row is to the right of pivot above\n- All zero rows at bottom..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Elementary Operations",
+    "subsection": "Rank",
+    "text": "Number of non-zero rows in echelon form\n\n---..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Special Matrices",
+    "subsection": "Orthogonal Matrix",
+    "text": "AᵀA = AAᵀ = I\n- det(A) = ±1\n- A⁻¹ = Aᵀ..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Special Matrices",
+    "subsection": "Idempotent Matrix",
+    "text": "A² = A..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Special Matrices",
+    "subsection": "Nilpotent Matrix",
+    "text": "Aᵏ = O for some positive integer k\n(smallest such k is index of nilpotency)..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Special Matrices",
+    "subsection": "Involutory Matrix",
+    "text": "A² = I (A = A⁻¹)..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Special Matrices",
+    "subsection": "Hermitian Matrix",
+    "text": "A* = A (where A* is conjugate transpose)..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Special Matrices",
+    "subsection": "Unitary Matrix",
+    "text": "A*A = AA* = I\n\n---..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Important Determinant Results",
+    "subsection": "Product of Roots",
+    "text": "For cubic ax³ + bx² + cx + d = 0:\nProduct = -d/a = -(constant term)/(leading coefficient)..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Important Determinant Results",
+    "subsection": "Vandermonde Determinant",
+    "text": "|1  a  a²|\n|1  b  b²| = (b-a)(c-a)(c-b)\n|1  c  c²|..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "Important Determinant Results",
+    "subsection": "Circulant Determinant",
+    "text": "Special patterns with cyclic elements\n\n---..."
+  },
+  {
+    "source": "matrices_determinants",
+    "section": "JEE-Specific Tips for Matrices/Determinants",
+    "subsection": "",
+    "text": "1. **For calculating determinants**: Use row/column operations to create zeros\n2. **For inverse**: Direct formula for 2×2, cofactor method for 3×3\n3. **For system of equations**: Check D first to dete..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Introduction",
+    "subsection": "",
+    "text": "# Permutations and Combinations - JEE Mathematics Knowledge Base..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Fundamental Principles",
+    "subsection": "Addition Principle",
+    "text": "If a task can be done in m ways OR n ways: Total = m + n..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Fundamental Principles",
+    "subsection": "Multiplication Principle",
+    "text": "If a task requires doing A AND B, where A can be done in m ways and B in n ways: Total = m × n\n\n---..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Factorial",
+    "subsection": "Definition",
+    "text": "**n! = n × (n-1) × (n-2) × ... × 3 × 2 × 1**..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Factorial",
+    "subsection": "Special Values",
+    "text": "- 0! = 1\n- 1! = 1\n- n! = n × (n-1)!..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Factorial",
+    "subsection": "Properties",
+    "text": "- (n+1)! = (n+1) × n!\n- n!/r! = n(n-1)(n-2)...(r+1) for n > r\n\n---..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Permutations",
+    "subsection": "Definition",
+    "text": "Arrangement of objects where ORDER MATTERS..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Permutations",
+    "subsection": "Formula",
+    "text": "**ⁿPᵣ = n!/(n-r)! = n(n-1)(n-2)...(n-r+1)**\n\nNumber of ways to arrange r objects from n distinct objects..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Permutations",
+    "subsection": "Special Cases",
+    "text": "- ⁿP₀ = 1\n- ⁿPₙ = n!\n- ⁿP₁ = n\n\n---..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Permutations with Repetition",
+    "subsection": "All Objects Repeated",
+    "text": "Arranging r objects from n types with unlimited repetition: **nʳ**..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Permutations with Repetition",
+    "subsection": "Some Identical Objects",
+    "text": "Arranging n objects where p are of type 1, q of type 2, etc.:\n**n!/(p! × q! × r! × ...)**\n\n---..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Circular Permutations",
+    "subsection": "Distinct Objects",
+    "text": "**Number of arrangements = (n-1)!**..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Circular Permutations",
+    "subsection": "When Clockwise ≠ Anticlockwise",
+    "text": "All (n-1)! arrangements are distinguishable..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Circular Permutations",
+    "subsection": "When Clockwise = Anticlockwise",
+    "text": "Number = **(n-1)!/2**\n(e.g., necklace, garland)\n\n---..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Combinations",
+    "subsection": "Definition",
+    "text": "Selection of objects where ORDER DOESN'T MATTER..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Combinations",
+    "subsection": "Formula",
+    "text": "**ⁿCᵣ = n!/[r!(n-r)!] = ⁿPᵣ/r!**..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Combinations",
+    "subsection": "Properties",
+    "text": "- ⁿC₀ = ⁿCₙ = 1\n- ⁿC₁ = ⁿCₙ₋₁ = n\n- ⁿCᵣ = ⁿCₙ₋ᵣ\n- ⁿCᵣ + ⁿCᵣ₋₁ = ⁿ⁺¹Cᵣ (Pascal's identity)\n- ⁿCᵣ = (n/r) × ⁿ⁻¹Cᵣ₋₁\n- ⁿC₀ + ⁿC₁ + ⁿC₂ + ... + ⁿCₙ = 2ⁿ..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Combinations",
+    "subsection": "Combinations with Repetition",
+    "text": "Selecting r objects from n types with repetition:\n**ⁿ⁺ʳ⁻¹Cᵣ = ⁿ⁺ʳ⁻¹Cₙ₋₁**\n\n---..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Distribution Problems",
+    "subsection": "Distributing Distinct Objects",
+    "text": "n distinct objects into r distinct groups:\n- Any group can be empty: rⁿ\n- No group empty: r! × S(n,r) (Stirling number)..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Distribution Problems",
+    "subsection": "Distributing Identical Objects",
+    "text": "n identical objects into r distinct groups:\n- Groups can be empty: ⁿ⁺ʳ⁻¹Cᵣ₋₁\n- Each group gets at least 1: ⁿ⁻¹Cᵣ₋₁..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Distribution Problems",
+    "subsection": "Distributing to Identical Groups",
+    "text": "Use partition theory (more complex)\n\n---..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Division into Groups",
+    "subsection": "Into Groups of Unequal Size",
+    "text": "Dividing n objects into groups of n₁, n₂, ..., nₖ (where n₁+n₂+...+nₖ=n):\n**n!/(n₁! × n₂! × ... × nₖ!)**..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Division into Groups",
+    "subsection": "Into Equal Groups (Distinct)",
+    "text": "Dividing mn objects into m groups of n each (groups distinguishable):\n**(mn)!/[(n!)ᵐ]**..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Division into Groups",
+    "subsection": "Into Equal Groups (Identical)",
+    "text": "Dividing mn objects into m groups of n each (groups indistinguishable):\n**(mn)!/[(n!)ᵐ × m!]**\n\n---..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Arrangements with Restrictions",
+    "subsection": "Certain Objects Always Together",
+    "text": "Treat them as one unit, arrange, then arrange within unit..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Arrangements with Restrictions",
+    "subsection": "Certain Objects Never Together",
+    "text": "Total arrangements - Arrangements with them together..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Arrangements with Restrictions",
+    "subsection": "Certain Objects at Specific Positions",
+    "text": "Fix those positions, arrange rest..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Arrangements with Restrictions",
+    "subsection": "Relative Arrangement",
+    "text": "Objects A, B in specific order: Total/2\n(if A before B, or A left of B, etc.)\n\n---..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Derangements",
+    "subsection": "Definition",
+    "text": "Arrangement where no object is in its original position..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Derangements",
+    "subsection": "Formula",
+    "text": "**Dₙ = n![1 - 1/1! + 1/2! - 1/3! + ... + (-1)ⁿ/n!]**\n**Dₙ = n! × Σ(k=0 to n) (-1)ᵏ/k!**..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Derangements",
+    "subsection": "Approximation",
+    "text": "Dₙ ≈ n!/e for large n..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Derangements",
+    "subsection": "Values",
+    "text": "- D₁ = 0\n- D₂ = 1\n- D₃ = 2\n- D₄ = 9\n- D₅ = 44\n\n---..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Geometry Applications",
+    "subsection": "Selecting Points",
+    "text": "From n points, combinations for:\n- Straight lines: ⁿC₂ (minus collinear adjustments)\n- Triangles: ⁿC₃ (minus collinear adjustments)..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Geometry Applications",
+    "subsection": "Collinearity Adjustment",
+    "text": "If m points are collinear (no three from n points collinear):\n- Lines: ⁿC₂ - ᵐC₂ + 1\n- Triangles: ⁿC₃ - ᵐC₃..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Geometry Applications",
+    "subsection": "Diagonals of Polygon",
+    "text": "In n-sided polygon: **ⁿC₂ - n = n(n-3)/2**..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Geometry Applications",
+    "subsection": "Intersection Points of Diagonals",
+    "text": "In convex n-gon (no three concurrent): **ⁿC₄**\n\n---..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Chessboard Problems",
+    "subsection": "Squares on Chessboard",
+    "text": "Total squares on 8×8 board: Σ(k=1 to 8) k² = 204\n\nGeneral n×n: Σk² = n(n+1)(2n+1)/6..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Chessboard Problems",
+    "subsection": "Rectangles on Chessboard",
+    "text": "Total rectangles: ⁿ⁺¹C₂ × ᵐ⁺¹C₂\nFor 8×8: ⁹C₂ × ⁹C₂ = 1296..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Chessboard Problems",
+    "subsection": "Non-attacking Rooks",
+    "text": "Placing n non-attacking rooks on n×n: n!\n\n---..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Word Arrangements",
+    "subsection": "Distinct Letters",
+    "text": "Word with n distinct letters: n! arrangements..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Word Arrangements",
+    "subsection": "Repeated Letters",
+    "text": "\"MISSISSIPPI\": 11!/(4! × 4! × 2!)..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Word Arrangements",
+    "subsection": "Words with Vowels Together",
+    "text": "Treat vowels as unit, arrange, then arrange vowels..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Word Arrangements",
+    "subsection": "Dictionary Order (Rank)",
+    "text": "Count words before given word alphabetically\n\n---..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "Sum of Numbers",
+    "subsection": "Sum of All Numbers Formed",
+    "text": "From digits d₁, d₂, ..., dₙ:\n- Each digit appears (n-1)! times in each position\n- Sum = (n-1)! × (d₁+d₂+...+dₙ) × (111...1)ₙ ₜᵢₘₑₛ\n\n---..."
+  },
+  {
+    "source": "permutations_combinations",
+    "section": "JEE-Specific Tips for P&C",
+    "subsection": "",
+    "text": "1. **Identify**: Permutation (order matters) vs Combination (order doesn't)\n2. **Use cases**: Break complex problems into mutually exclusive cases\n3. **Complement**: Sometimes easier to count what you..."
+  },
+  {
+    "source": "probability",
+    "section": "Introduction",
+    "subsection": "",
+    "text": "# Probability - JEE Mathematics Knowledge Base..."
+  },
+  {
+    "source": "probability",
+    "section": "Basic Concepts",
+    "subsection": "Definitions",
+    "text": "- **Experiment**: Any process that produces well-defined outcomes\n- **Sample Space (S)**: Set of all possible outcomes\n- **Event**: Any subset of sample space\n- **Probability**: P(E) = Number of favor..."
+  },
+  {
+    "source": "probability",
+    "section": "Basic Concepts",
+    "subsection": "Axioms of Probability",
+    "text": "1. 0 ≤ P(E) ≤ 1 for any event E\n2. P(S) = 1 (certainty)\n3. P(∅) = 0 (impossible event)\n\n---..."
+  },
+  {
+    "source": "probability",
+    "section": "Fundamental Rules",
+    "subsection": "Addition Rule",
+    "text": "- **Mutually Exclusive Events**: P(A ∪ B) = P(A) + P(B)\n- **General Addition**: P(A ∪ B) = P(A) + P(B) - P(A ∩ B)\n- **Three Events**: P(A ∪ B ∪ C) = P(A) + P(B) + P(C) - P(A∩B) - P(B∩C) - P(A∩C) + P(A..."
+  },
+  {
+    "source": "probability",
+    "section": "Fundamental Rules",
+    "subsection": "Complement Rule",
+    "text": "P(A') = 1 - P(A)\nwhere A' is the complement of A..."
+  },
+  {
+    "source": "probability",
+    "section": "Fundamental Rules",
+    "subsection": "Multiplication Rule",
+    "text": "- **Independent Events**: P(A ∩ B) = P(A) × P(B)\n- **Dependent Events**: P(A ∩ B) = P(A) × P(B|A)\n\n---..."
+  },
+  {
+    "source": "probability",
+    "section": "Conditional Probability",
+    "subsection": "Definition",
+    "text": "P(A|B) = P(A ∩ B) / P(B), where P(B) > 0..."
+  },
+  {
+    "source": "probability",
+    "section": "Conditional Probability",
+    "subsection": "Properties",
+    "text": "- P(A|B) + P(A'|B) = 1\n- P(A ∩ B) = P(A|B) × P(B) = P(B|A) × P(A)\n\n---..."
+  },
+  {
+    "source": "probability",
+    "section": "Independent Events",
+    "subsection": "Definition",
+    "text": "Events A and B are independent if P(A ∩ B) = P(A) × P(B)..."
+  },
+  {
+    "source": "probability",
+    "section": "Independent Events",
+    "subsection": "Equivalent Conditions",
+    "text": "- P(A|B) = P(A)\n- P(B|A) = P(B)..."
+  },
+  {
+    "source": "probability",
+    "section": "Independent Events",
+    "subsection": "Multiple Independent Events",
+    "text": "P(A₁ ∩ A₂ ∩ ... ∩ Aₙ) = P(A₁) × P(A₂) × ... × P(Aₙ)\n\n---..."
+  },
+  {
+    "source": "probability",
+    "section": "Bayes' Theorem",
+    "subsection": "Formula",
+    "text": "P(Aᵢ|B) = P(B|Aᵢ) × P(Aᵢ) / Σ[P(B|Aⱼ) × P(Aⱼ)]..."
+  },
+  {
+    "source": "probability",
+    "section": "Bayes' Theorem",
+    "subsection": "Total Probability Theorem",
+    "text": "If A₁, A₂, ..., Aₙ are mutually exclusive and exhaustive:\nP(B) = Σ P(B|Aᵢ) × P(Aᵢ)\n\n---..."
+  },
+  {
+    "source": "probability",
+    "section": "Permutations and Combinations in Probability",
+    "subsection": "Equally Likely Outcomes",
+    "text": "P(E) = n(E) / n(S)\nwhere n(E) = |E| and n(S) = |S|..."
+  },
+  {
+    "source": "probability",
+    "section": "Permutations and Combinations in Probability",
+    "subsection": "Common Counting Techniques",
+    "text": "- **Ordered selection (Permutation)**: ⁿPᵣ = n!/(n-r)!\n- **Unordered selection (Combination)**: ⁿCᵣ = n!/[r!(n-r)!]\n- **With repetition**: n^r for r selections from n items\n\n---..."
+  },
+  {
+    "source": "probability",
+    "section": "Random Variables",
+    "subsection": "Discrete Random Variable",
+    "text": "Takes countable number of values with associated probabilities..."
+  },
+  {
+    "source": "probability",
+    "section": "Random Variables",
+    "subsection": "Probability Distribution",
+    "text": "Sum of all probabilities = 1: Σ P(X = xᵢ) = 1..."
+  },
+  {
+    "source": "probability",
+    "section": "Random Variables",
+    "subsection": "Mean (Expected Value)",
+    "text": "E(X) = μ = Σ xᵢ × P(X = xᵢ)..."
+  },
+  {
+    "source": "probability",
+    "section": "Random Variables",
+    "subsection": "Variance",
+    "text": "Var(X) = σ² = E(X²) - [E(X)]² = Σ xᵢ² × P(X = xᵢ) - μ²..."
+  },
+  {
+    "source": "probability",
+    "section": "Random Variables",
+    "subsection": "Standard Deviation",
+    "text": "σ = √Var(X)\n\n---..."
+  },
+  {
+    "source": "probability",
+    "section": "Binomial Distribution",
+    "subsection": "Conditions",
+    "text": "1. Fixed number of trials (n)\n2. Each trial has two outcomes (success/failure)\n3. Probability of success (p) is constant\n4. Trials are independent..."
+  },
+  {
+    "source": "probability",
+    "section": "Binomial Distribution",
+    "subsection": "Probability Mass Function",
+    "text": "P(X = r) = ⁿCᵣ × pʳ × qⁿ⁻ʳ\nwhere q = 1 - p..."
+  },
+  {
+    "source": "probability",
+    "section": "Binomial Distribution",
+    "subsection": "Properties",
+    "text": "- Mean: μ = np\n- Variance: σ² = npq\n- Mode: (n+1)p or floor value\n\n---..."
+  },
+  {
+    "source": "probability",
+    "section": "Bernoulli Distribution",
+    "subsection": "Single Trial",
+    "text": "P(X = 1) = p (success)\nP(X = 0) = q = 1 - p (failure)..."
+  },
+  {
+    "source": "probability",
+    "section": "Bernoulli Distribution",
+    "subsection": "Properties",
+    "text": "- Mean: E(X) = p\n- Variance: Var(X) = pq\n\n---..."
+  },
+  {
+    "source": "probability",
+    "section": "Geometric Distribution",
+    "subsection": "Definition",
+    "text": "Probability of first success on kth trial..."
+  },
+  {
+    "source": "probability",
+    "section": "Geometric Distribution",
+    "subsection": "Formula",
+    "text": "P(X = k) = q^(k-1) × p..."
+  },
+  {
+    "source": "probability",
+    "section": "Geometric Distribution",
+    "subsection": "Mean",
+    "text": "E(X) = 1/p\n\n---..."
+  },
+  {
+    "source": "probability",
+    "section": "Important Probability Results",
+    "subsection": "At Least One Success",
+    "text": "P(at least one) = 1 - P(none)..."
+  },
+  {
+    "source": "probability",
+    "section": "Important Probability Results",
+    "subsection": "Drawing Without Replacement",
+    "text": "Use combinations: P = (favorable combinations) / (total combinations)..."
+  },
+  {
+    "source": "probability",
+    "section": "Important Probability Results",
+    "subsection": "Drawing With Replacement",
+    "text": "Use multiplication: P = pⁿ for n identical events..."
+  },
+  {
+    "source": "probability",
+    "section": "Important Probability Results",
+    "subsection": "Probability in Cards",
+    "text": "- Total cards = 52\n- 4 suits: Hearts, Diamonds (red), Clubs, Spades (black)\n- 13 cards per suit: A, 2-10, J, Q, K\n- Face cards = 12 (J, Q, K in each suit)..."
+  },
+  {
+    "source": "probability",
+    "section": "Important Probability Results",
+    "subsection": "Probability in Dice",
+    "text": "- Single die: 6 outcomes\n- Two dice: 36 outcomes\n- Sum = 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 ways\n\n---..."
+  },
+  {
+    "source": "probability",
+    "section": "Odds and Probability",
+    "subsection": "Odds in Favor",
+    "text": "Odds in favor of A = P(A) : P(A') = P(A) / [1 - P(A)]..."
+  },
+  {
+    "source": "probability",
+    "section": "Odds and Probability",
+    "subsection": "Odds Against",
+    "text": "Odds against A = P(A') : P(A) = [1 - P(A)] / P(A)\n\n---..."
+  },
+  {
+    "source": "probability",
+    "section": "JEE-Specific Tips for Probability",
+    "subsection": "",
+    "text": "1. **Always identify**: Sample space, favorable outcomes, and independence\n2. **For \"at least\" problems**: Use complement: P(at least 1) = 1 - P(none)\n3. **For conditional probability**: Draw tree dia..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Introduction",
+    "subsection": "",
+    "text": "# Problem Templates and Solution Patterns - JEE Mathematics..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Algebra Problem Templates",
+    "subsection": "Template 1: Quadratic Roots Problems",
+    "text": "**Pattern**: Given conditions on roots α, β of ax² + bx + c = 0\n\n**Solution Steps**:\n1. Use Vieta's formulas: α + β = -b/a, αβ = c/a\n2. Express given condition in terms of sum and product\n3. Solve for..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Algebra Problem Templates",
+    "subsection": "Template 2: AP/GP Word Problems",
+    "text": "**Pattern**: Find terms or sum with given conditions\n\n**Solution Steps**:\n1. For 3 terms in AP: use (a-d), a, (a+d)\n2. For 3 terms in GP: use a/r, a, ar\n3. Apply given conditions\n4. Solve system of eq..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Algebra Problem Templates",
+    "subsection": "Template 3: Inequality Problems",
+    "text": "**Pattern**: Find range of x satisfying f(x) > g(x)\n\n**Solution Steps**:\n1. Rearrange to h(x) > 0 or h(x) < 0\n2. Find critical points (zeros of h)\n3. Use sign analysis or wavy curve method\n4. Express ..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Calculus Problem Templates",
+    "subsection": "Template 4: Rate of Change",
+    "text": "**Pattern**: Related rates or optimization\n\n**Solution Steps**:\n1. Identify given rate: dx/dt or similar\n2. Find relationship between variables\n3. Differentiate with respect to t\n4. Substitute known v..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Calculus Problem Templates",
+    "subsection": "Template 5: Area Under Curve",
+    "text": "**Pattern**: Find area bounded by curves\n\n**Solution Steps**:\n1. Sketch the curves\n2. Find intersection points\n3. Identify upper and lower curves\n4. Integrate: Area = ∫[a to b](upper - lower)dx\n\n---..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Calculus Problem Templates",
+    "subsection": "Template 6: Maxima/Minima",
+    "text": "**Pattern**: Optimize function with constraints\n\n**Solution Steps**:\n1. Express quantity to optimize as f(x)\n2. Find f'(x) = 0 → critical points\n3. Use second derivative test or sign change\n4. Check b..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Coordinate Geometry Templates",
+    "subsection": "Template 7: Tangent to Conic",
+    "text": "**Pattern**: Find tangent from external point / with given slope\n\n**Solution Steps**:\n1. For slope m: Use standard tangent form\n   - Circle: y = mx ± r√(1+m²)\n   - Parabola: y = mx + a/m\n   - Ellipse:..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Coordinate Geometry Templates",
+    "subsection": "Template 8: Locus Problems",
+    "text": "**Pattern**: Find equation of locus given geometric condition\n\n**Solution Steps**:\n1. Let P(h, k) be general point on locus\n2. Apply given condition\n3. Eliminate parameters\n4. Replace h → x, k → y\n5. ..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Probability Templates",
+    "subsection": "Template 9: Conditional Probability",
+    "text": "**Pattern**: Find P(A|B) or use Bayes' theorem\n\n**Solution Steps**:\n1. Define events clearly\n2. For P(A|B): Use P(A|B) = P(A∩B)/P(B)\n3. For Bayes: P(Aᵢ|B) = P(B|Aᵢ)P(Aᵢ) / ΣP(B|Aⱼ)P(Aⱼ)\n4. Draw tree d..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Probability Templates",
+    "subsection": "Template 10: At Least Problems",
+    "text": "**Pattern**: P(at least one success)\n\n**Solution Steps**:\n1. P(at least 1) = 1 - P(none)\n2. Calculate P(none) which is often simpler\n3. Subtract from 1\n\n**Example**: P(at least one head in 3 tosses)\n=..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Trigonometry Templates",
+    "subsection": "Template 11: Prove Identity",
+    "text": "**Pattern**: Prove LHS = RHS\n\n**Solution Steps**:\n1. Start with more complex side\n2. Use standard identities\n3. Convert to sines/cosines if stuck\n4. Simplify step by step\n5. Reach the other side\n\n---..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Trigonometry Templates",
+    "subsection": "Template 12: Trigonometric Equations",
+    "text": "**Pattern**: Solve sin f(x) = k, etc.\n\n**Solution Steps**:\n1. Find principal solution θ\n2. General solution:\n   - sin x = k → x = nπ + (-1)ⁿθ\n   - cos x = k → x = 2nπ ± θ\n   - tan x = k → x = nπ + θ\n3..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Complex Numbers Templates",
+    "subsection": "Template 13: Find Locus in Argand Plane",
+    "text": "**Pattern**: |z - z₁| = k|z - z₂| or arg((z-z₁)/(z-z₂)) = θ\n\n**Solution Steps**:\n1. Let z = x + iy\n2. Substitute and simplify\n3. Identify geometric shape:\n   - |z - z₁| = |z - z₂|: Perpendicular bisec..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Complex Numbers Templates",
+    "subsection": "Template 14: nth Roots of Unity",
+    "text": "**Pattern**: Solve zⁿ = 1 or zⁿ = w\n\n**Solution Steps**:\n1. Express in polar form: z = r^(1/n) · e^(i(θ+2kπ)/n)\n2. k = 0, 1, 2, ..., n-1 gives n roots\n3. Roots form regular polygon on circle\n\n---..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Vectors Templates",
+    "subsection": "Template 15: Shortest Distance (Skew Lines)",
+    "text": "**Pattern**: Find shortest distance between lines\n\n**Solution Steps**:\n1. Identify: r = a₁ + λb₁ and r = a₂ + μb₂\n2. SD = |(a₂ - a₁) · (b₁ × b₂)| / |b₁ × b₂|\n3. If parallel: SD = |b × (a₂ - a₁)| / |b|..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Vectors Templates",
+    "subsection": "Template 16: Image/Foot in 3D",
+    "text": "**Pattern**: Find image of point in line/plane\n\n**Solution Steps**:\n1. Find foot of perpendicular\n   - Write line perpendicular to given line/plane through point\n   - Find intersection\n2. Image = 2(fo..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Differential Equations Templates",
+    "subsection": "Template 17: Variable Separable",
+    "text": "**Pattern**: dy/dx = f(x)g(y)\n\n**Solution Steps**:\n1. Separate: dy/g(y) = f(x)dx\n2. Integrate both sides\n3. Apply initial condition if given\n4. Simplify for explicit solution if possible\n\n---..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "Differential Equations Templates",
+    "subsection": "Template 18: Linear First Order",
+    "text": "**Pattern**: dy/dx + P(x)y = Q(x)\n\n**Solution Steps**:\n1. Find IF = e^(∫P dx)\n2. Solution: y × IF = ∫(Q × IF)dx + C\n3. Divide by IF to get y\n\n---..."
+  },
+  {
+    "source": "problem_templates",
+    "section": "General Problem-Solving Strategy",
+    "subsection": "",
+    "text": "1. **Read Carefully**: Identify what's given and what's asked\n2. **Classify Problem**: Match to known template\n3. **Draw Diagram**: For geometry, coordinate geometry, 3D\n4. **Choose Approach**: Algebr..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Introduction",
+    "subsection": "",
+    "text": "# Sequences and Series - JEE Mathematics Knowledge Base..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Arithmetic Progression (AP)",
+    "subsection": "Definition",
+    "text": "A sequence where difference between consecutive terms is constant.\na, a+d, a+2d, a+3d, ......"
+  },
+  {
+    "source": "sequences_series",
+    "section": "Arithmetic Progression (AP)",
+    "subsection": "nth Term",
+    "text": "**aₙ = a + (n-1)d**..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Arithmetic Progression (AP)",
+    "subsection": "Sum of First n Terms",
+    "text": "**Sₙ = n/2[2a + (n-1)d] = n/2(a + l)**\nwhere l = last term..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Arithmetic Progression (AP)",
+    "subsection": "Properties",
+    "text": "- If a, b, c are in AP: 2b = a + c\n- Common difference: d = aₙ - aₙ₋₁\n- nth term from end: l - (n-1)d\n- Sum of n terms from end: n/2[2l - (n-1)d]..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Arithmetic Progression (AP)",
+    "subsection": "Arithmetic Mean",
+    "text": "AM of a and b = (a + b)/2..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Arithmetic Progression (AP)",
+    "subsection": "Insertion of Arithmetic Means",
+    "text": "n AMs between a and b: common difference = (b-a)/(n+1)\n\n---..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Geometric Progression (GP)",
+    "subsection": "Definition",
+    "text": "A sequence where ratio of consecutive terms is constant.\na, ar, ar², ar³, ......"
+  },
+  {
+    "source": "sequences_series",
+    "section": "Geometric Progression (GP)",
+    "subsection": "nth Term",
+    "text": "**aₙ = ar^(n-1)**..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Geometric Progression (GP)",
+    "subsection": "Sum of First n Terms",
+    "text": "- r ≠ 1: **Sₙ = a(rⁿ - 1)/(r - 1) = a(1 - rⁿ)/(1 - r)**\n- r = 1: Sₙ = na..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Geometric Progression (GP)",
+    "subsection": "Sum to Infinity (|r| < 1)",
+    "text": "**S∞ = a/(1 - r)**..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Geometric Progression (GP)",
+    "subsection": "Properties",
+    "text": "- If a, b, c are in GP: b² = ac\n- Product of n terms: aⁿ × r^[n(n-1)/2]..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Geometric Progression (GP)",
+    "subsection": "Geometric Mean",
+    "text": "GM of a and b = √(ab)..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Geometric Progression (GP)",
+    "subsection": "Insertion of Geometric Means",
+    "text": "n GMs between a and b: common ratio = (b/a)^(1/(n+1))\n\n---..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Harmonic Progression (HP)",
+    "subsection": "Definition",
+    "text": "A sequence is HP if reciprocals form an AP.\n1/a, 1/(a+d), 1/(a+2d), ......"
+  },
+  {
+    "source": "sequences_series",
+    "section": "Harmonic Progression (HP)",
+    "subsection": "nth Term",
+    "text": "**1/aₙ = 1/a + (n-1)d** where d is CD of reciprocal AP..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Harmonic Progression (HP)",
+    "subsection": "Harmonic Mean",
+    "text": "HM of a and b = **2ab/(a + b)**..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Harmonic Progression (HP)",
+    "subsection": "Relationship",
+    "text": "For positive numbers: **AM ≥ GM ≥ HM**\nEquality when all numbers are equal.\n\nAlso: **AM × HM = GM²**\n\n---..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Arithmetico-Geometric Progression (AGP)",
+    "subsection": "Definition",
+    "text": "Each term = (AP term) × (GP term)\na, (a+d)r, (a+2d)r², ......"
+  },
+  {
+    "source": "sequences_series",
+    "section": "Arithmetico-Geometric Progression (AGP)",
+    "subsection": "Sum to n Terms",
+    "text": "Method: Multiply by r and subtract..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Arithmetico-Geometric Progression (AGP)",
+    "subsection": "Sum to Infinity (|r| < 1)",
+    "text": "**S∞ = a/(1-r) + dr/(1-r)²**\n\n---..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Special Series",
+    "subsection": "Sum of First n Natural Numbers",
+    "text": "**Σn = 1 + 2 + 3 + ... + n = n(n+1)/2**..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Special Series",
+    "subsection": "Sum of Squares",
+    "text": "**Σn² = 1² + 2² + ... + n² = n(n+1)(2n+1)/6**..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Special Series",
+    "subsection": "Sum of Cubes",
+    "text": "**Σn³ = 1³ + 2³ + ... + n³ = [n(n+1)/2]² = (Σn)²**..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Special Series",
+    "subsection": "Sum of Fourth Powers",
+    "text": "**Σn⁴ = n(n+1)(2n+1)(3n²+3n-1)/30**..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Special Series",
+    "subsection": "Sum of Fifth Powers",
+    "text": "**Σn⁵ = n²(n+1)²(2n²+2n-1)/12**\n\n---..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Method of Differences",
+    "subsection": "First Order Differences",
+    "text": "If aₙ - aₙ₋₁ = f(n) is expressible simply:\naₙ = a₁ + Σf(k) for k = 2 to n..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Method of Differences",
+    "subsection": "Second Order Differences",
+    "text": "If second differences are constant, general term is quadratic:\naₙ = An² + Bn + C..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Method of Differences",
+    "subsection": "Vₙ Method",
+    "text": "If Tₙ = Vₙ - Vₙ₋₁:\nΣ Tₙ = Vₙ - V₀\n\n---..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Summation Techniques",
+    "subsection": "Partial Fractions",
+    "text": "1/[n(n+1)] = 1/n - 1/(n+1)\n1/[n(n+1)(n+2)] = (1/2)[1/n(n+1) - 1/(n+1)(n+2)]..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Summation Techniques",
+    "subsection": "Telescoping Series",
+    "text": "Sum collapses when consecutive terms cancel..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Summation Techniques",
+    "subsection": "Common Decompositions",
+    "text": "- 1/(n(n+k)) = (1/k)[1/n - 1/(n+k)]\n- n = (1/2)[(n(n+1)) - ((n-1)n)]\n- n² = (1/6)[(n)(n+1)(n+2) - (n-1)(n)(n+1)]\n\n---..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Exponential and Logarithmic Series",
+    "subsection": "Exponential Series",
+    "text": "**eˣ = 1 + x + x²/2! + x³/3! + ...**..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Exponential and Logarithmic Series",
+    "subsection": "Special Values",
+    "text": "- e = 1 + 1/1! + 1/2! + 1/3! + ...\n- e⁻¹ = 1 - 1/1! + 1/2! - 1/3! + ......"
+  },
+  {
+    "source": "sequences_series",
+    "section": "Exponential and Logarithmic Series",
+    "subsection": "Logarithmic Series",
+    "text": "**ln(1+x) = x - x²/2 + x³/3 - x⁴/4 + ...** (|x| ≤ 1, x ≠ -1)\n**ln(1-x) = -x - x²/2 - x³/3 - ...** (|x| < 1)..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Exponential and Logarithmic Series",
+    "subsection": "Useful Results",
+    "text": "- ln 2 = 1 - 1/2 + 1/3 - 1/4 + ...\n- ln[(1+x)/(1-x)] = 2[x + x³/3 + x⁵/5 + ...]\n\n---..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Binomial Series",
+    "subsection": "For Any Index n",
+    "text": "**(1+x)ⁿ = 1 + nx + n(n-1)x²/2! + n(n-1)(n-2)x³/3! + ...**\n(valid for |x| < 1 when n is not a positive integer)..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Binomial Series",
+    "subsection": "Special Cases",
+    "text": "- (1+x)⁻¹ = 1 - x + x² - x³ + ...\n- (1-x)⁻¹ = 1 + x + x² + x³ + ...\n- (1+x)⁻² = 1 - 2x + 3x² - 4x³ + ...\n- (1-x)⁻² = 1 + 2x + 3x² + 4x³ + ...\n- (1+x)^(1/2) = 1 + x/2 - x²/8 + ...\n- (1+x)^(-1/2) = 1 - ..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Convergence Tests",
+    "subsection": "Geometric Series",
+    "text": "Converges if |r| < 1..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Convergence Tests",
+    "subsection": "Comparison Test",
+    "text": "Compare with known convergent/divergent series..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Convergence Tests",
+    "subsection": "Ratio Test",
+    "text": "If lim|aₙ₊₁/aₙ| = L:\n- L < 1: Converges\n- L > 1: Diverges\n- L = 1: Inconclusive..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "Convergence Tests",
+    "subsection": "Root Test",
+    "text": "If lim|aₙ|^(1/n) = L:\n- L < 1: Converges\n- L > 1: Diverges\n- L = 1: Inconclusive\n\n---..."
+  },
+  {
+    "source": "sequences_series",
+    "section": "JEE-Specific Tips for Sequences & Series",
+    "subsection": "",
+    "text": "1. **For finding nth term**: Use Tₙ = Sₙ - Sₙ₋₁\n2. **For product in GP**: Take terms as a/r, a, ar for 3 terms\n3. **For AP with constraint**: Take terms as a-d, a, a+d for 3 terms\n4. **For infinite se..."
+  },
+  {
+    "source": "statistics",
+    "section": "Introduction",
+    "subsection": "",
+    "text": "# Statistics - JEE Mathematics Knowledge Base..."
+  },
+  {
+    "source": "statistics",
+    "section": "Measures of Central Tendency",
+    "subsection": "Mean (Arithmetic Mean)",
+    "text": "**For Raw Data**:\nx̄ = Σxᵢ/n\n\n**For Frequency Distribution**:\nx̄ = Σfᵢxᵢ/Σfᵢ = Σfᵢxᵢ/N\n\n**Short-cut Method**:\nx̄ = A + Σfᵢdᵢ/N\nwhere dᵢ = xᵢ - A (A is assumed mean)\n\n**Step Deviation Method**:\nx̄ = A ..."
+  },
+  {
+    "source": "statistics",
+    "section": "Measures of Central Tendency",
+    "subsection": "Properties of Mean",
+    "text": "- Σ(xᵢ - x̄) = 0\n- Σ(xᵢ - x̄)² is minimum\n- If all values change by constant k: new mean = old mean + k\n- If all values multiplied by k: new mean = k × old mean..."
+  },
+  {
+    "source": "statistics",
+    "section": "Measures of Central Tendency",
+    "subsection": "Combined Mean",
+    "text": "For groups with means x̄₁, x̄₂ and sizes n₁, n₂:\n**x̄ = (n₁x̄₁ + n₂x̄₂)/(n₁ + n₂)**\n\n---..."
+  },
+  {
+    "source": "statistics",
+    "section": "Measures of Central Tendency",
+    "subsection": "Median",
+    "text": "**For Ungrouped Data**:\nArrange in order, then:\n- n odd: Median = ((n+1)/2)th term\n- n even: Median = average of (n/2)th and (n/2 + 1)th terms\n\n**For Grouped Data**:\n**Median = L + h × ((N/2 - F)/f)**..."
+  },
+  {
+    "source": "statistics",
+    "section": "Measures of Central Tendency",
+    "subsection": "Mode",
+    "text": "**For Ungrouped Data**: Most frequent value\n\n**For Grouped Data**:\n**Mode = L + h × ((f₁ - f₀)/(2f₁ - f₀ - f₂))**\nwhere:\n- L = lower limit of modal class\n- h = class width\n- f₁ = frequency of modal cl..."
+  },
+  {
+    "source": "statistics",
+    "section": "Measures of Central Tendency",
+    "subsection": "Relationship",
+    "text": "For moderately symmetric distribution:\n**Mode = 3 × Median - 2 × Mean**\n\n---..."
+  },
+  {
+    "source": "statistics",
+    "section": "Measures of Dispersion",
+    "subsection": "Range",
+    "text": "**Range = Maximum value - Minimum value**..."
+  },
+  {
+    "source": "statistics",
+    "section": "Measures of Dispersion",
+    "subsection": "Mean Deviation",
+    "text": "**About Mean**: MD = Σfᵢ|xᵢ - x̄|/N\n**About Median**: MD = Σfᵢ|xᵢ - M|/N\n\nMean deviation about median is minimum.\n\n---..."
+  },
+  {
+    "source": "statistics",
+    "section": "Measures of Dispersion",
+    "subsection": "Variance",
+    "text": "**For Population**:\nσ² = Σ(xᵢ - μ)²/N = (Σxᵢ²/N) - μ²\n\n**For Sample**:\ns² = Σ(xᵢ - x̄)²/(n-1)\n\n**For Frequency Distribution**:\nσ² = (Σfᵢxᵢ²/N) - x̄² = (Σfᵢxᵢ²/N) - (Σfᵢxᵢ/N)²\n\n**Short-cut Formula**:\nσ..."
+  },
+  {
+    "source": "statistics",
+    "section": "Measures of Dispersion",
+    "subsection": "Standard Deviation",
+    "text": "**σ = √Variance**..."
+  },
+  {
+    "source": "statistics",
+    "section": "Measures of Dispersion",
+    "subsection": "Properties",
+    "text": "- σ ≥ 0\n- If all values same, σ = 0\n- Adding constant: σ unchanged\n- Multiplying by k: new σ = |k| × old σ..."
+  },
+  {
+    "source": "statistics",
+    "section": "Measures of Dispersion",
+    "subsection": "Combined Standard Deviation",
+    "text": "For two groups with means x̄₁, x̄₂ and variances σ₁², σ₂²:\n**σ² = (n₁σ₁² + n₂σ₂² + n₁d₁² + n₂d₂²)/(n₁ + n₂)**\nwhere d₁ = x̄₁ - x̄, d₂ = x̄₂ - x̄\n\n---..."
+  },
+  {
+    "source": "statistics",
+    "section": "Measures of Dispersion",
+    "subsection": "Coefficient of Variation",
+    "text": "**CV = (σ/x̄) × 100%**\n\nUsed to compare variability of different datasets.\nLower CV = more consistent.\n\n---..."
+  },
+  {
+    "source": "statistics",
+    "section": "Quartiles and Percentiles",
+    "subsection": "Quartiles",
+    "text": "- Q₁ (First Quartile): 25th percentile\n- Q₂ (Second Quartile): Median (50th percentile)\n- Q₃ (Third Quartile): 75th percentile..."
+  },
+  {
+    "source": "statistics",
+    "section": "Quartiles and Percentiles",
+    "subsection": "Inter-Quartile Range",
+    "text": "**IQR = Q₃ - Q₁**..."
+  },
+  {
+    "source": "statistics",
+    "section": "Quartiles and Percentiles",
+    "subsection": "Quartile Deviation (Semi-IQR)",
+    "text": "**QD = (Q₃ - Q₁)/2**..."
+  },
+  {
+    "source": "statistics",
+    "section": "Quartiles and Percentiles",
+    "subsection": "For Grouped Data",
+    "text": "**Qₖ = L + h × ((kN/4 - F)/f)**\nwhere k = 1, 2, or 3\n\n---..."
+  },
+  {
+    "source": "statistics",
+    "section": "Percentiles and Deciles",
+    "subsection": "Percentile",
+    "text": "Pₖ divides data into k% below and (100-k)% above..."
+  },
+  {
+    "source": "statistics",
+    "section": "Percentiles and Deciles",
+    "subsection": "Decile",
+    "text": "D₁, D₂, ..., D₉ divide data into 10 equal parts\nDₖ = Pₖ₀\n\n---..."
+  },
+  {
+    "source": "statistics",
+    "section": "Skewness and Kurtosis",
+    "subsection": "Skewness",
+    "text": "Measure of asymmetry:\n- Positive skew: Mean > Median > Mode (tail to right)\n- Negative skew: Mean < Median < Mode (tail to left)\n- Symmetric: Mean = Median = Mode..."
+  },
+  {
+    "source": "statistics",
+    "section": "Skewness and Kurtosis",
+    "subsection": "Pearson's Coefficient",
+    "text": "**Skewness = (Mean - Mode)/σ = 3(Mean - Median)/σ**\n\n---..."
+  },
+  {
+    "source": "statistics",
+    "section": "Correlation and Regression",
+    "subsection": "Correlation Coefficient (r)",
+    "text": "**r = Σ(xᵢ - x̄)(yᵢ - ȳ) / √[Σ(xᵢ - x̄)² × Σ(yᵢ - ȳ)²]**\n\nOr: **r = (Σxᵢyᵢ - nx̄ȳ) / √[(Σxᵢ² - nx̄²)(Σyᵢ² - nȳ²)]**..."
+  },
+  {
+    "source": "statistics",
+    "section": "Correlation and Regression",
+    "subsection": "Properties of r",
+    "text": "- -1 ≤ r ≤ 1\n- r = 1: Perfect positive correlation\n- r = -1: Perfect negative correlation\n- r = 0: No linear correlation\n- r² = coefficient of determination..."
+  },
+  {
+    "source": "statistics",
+    "section": "Correlation and Regression",
+    "subsection": "Regression Lines",
+    "text": "**Line of y on x**: y - ȳ = bᵧₓ(x - x̄)\nwhere bᵧₓ = r(σᵧ/σₓ)\n\n**Line of x on y**: x - x̄ = bₓᵧ(y - ȳ)\nwhere bₓᵧ = r(σₓ/σᵧ)..."
+  },
+  {
+    "source": "statistics",
+    "section": "Correlation and Regression",
+    "subsection": "Properties",
+    "text": "- Both lines pass through (x̄, ȳ)\n- bᵧₓ × bₓᵧ = r²\n- If r = ±1, both lines coincide\n\n---..."
+  },
+  {
+    "source": "statistics",
+    "section": "Probability Distributions",
+    "subsection": "Mean of Random Variable",
+    "text": "**μ = E(X) = Σ xᵢP(X = xᵢ)**..."
+  },
+  {
+    "source": "statistics",
+    "section": "Probability Distributions",
+    "subsection": "Variance of Random Variable",
+    "text": "**σ² = E(X²) - [E(X)]² = Σ xᵢ²P(X = xᵢ) - μ²**..."
+  },
+  {
+    "source": "statistics",
+    "section": "Probability Distributions",
+    "subsection": "Binomial Distribution",
+    "text": "- Mean: μ = np\n- Variance: σ² = npq\n- Standard deviation: σ = √(npq)\n\n---..."
+  },
+  {
+    "source": "statistics",
+    "section": "JEE-Specific Tips for Statistics",
+    "subsection": "",
+    "text": "1. **For mean**: Use step-deviation for class intervals\n2. **For variance**: Remember σ² = (Σfᵢxᵢ²/N) - x̄²\n3. **For combined statistics**: Use appropriate formulas for combined mean/variance\n4. **For..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Introduction",
+    "subsection": "",
+    "text": "# Trigonometry - JEE Mathematics Knowledge Base..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Basic Definitions",
+    "subsection": "In Right Triangle",
+    "text": "- sin θ = Opposite/Hypotenuse\n- cos θ = Adjacent/Hypotenuse\n- tan θ = Opposite/Adjacent = sin θ/cos θ\n- cot θ = Adjacent/Opposite = cos θ/sin θ = 1/tan θ\n- sec θ = Hypotenuse/Adjacent = 1/cos θ\n- csc ..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Basic Definitions",
+    "subsection": "Unit Circle Definition",
+    "text": "For point P(x, y) on unit circle at angle θ from positive x-axis:\n- cos θ = x\n- sin θ = y\n\n---..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Fundamental Identities",
+    "subsection": "Pythagorean Identities",
+    "text": "- sin²θ + cos²θ = 1\n- 1 + tan²θ = sec²θ\n- 1 + cot²θ = csc²θ..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Fundamental Identities",
+    "subsection": "Reciprocal Identities",
+    "text": "- sin θ × csc θ = 1\n- cos θ × sec θ = 1\n- tan θ × cot θ = 1\n\n---..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Compound Angle Formulas",
+    "subsection": "Sum Formulas",
+    "text": "- sin(A + B) = sin A cos B + cos A sin B\n- sin(A - B) = sin A cos B - cos A sin B\n- cos(A + B) = cos A cos B - sin A sin B\n- cos(A - B) = cos A cos B + sin A sin B\n- tan(A + B) = (tan A + tan B)/(1 - ..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Compound Angle Formulas",
+    "subsection": "Double Angle Formulas",
+    "text": "- sin 2A = 2 sin A cos A = 2 tan A/(1 + tan²A)\n- cos 2A = cos²A - sin²A = 2cos²A - 1 = 1 - 2sin²A = (1 - tan²A)/(1 + tan²A)\n- tan 2A = 2 tan A/(1 - tan²A)..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Compound Angle Formulas",
+    "subsection": "Triple Angle Formulas",
+    "text": "- sin 3A = 3 sin A - 4 sin³A\n- cos 3A = 4 cos³A - 3 cos A\n- tan 3A = (3 tan A - tan³A)/(1 - 3 tan²A)..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Compound Angle Formulas",
+    "subsection": "Half Angle Formulas",
+    "text": "- sin(A/2) = ±√[(1 - cos A)/2]\n- cos(A/2) = ±√[(1 + cos A)/2]\n- tan(A/2) = (1 - cos A)/sin A = sin A/(1 + cos A) = ±√[(1 - cos A)/(1 + cos A)]\n\n---..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Product-to-Sum Formulas",
+    "subsection": "",
+    "text": "- 2 sin A cos B = sin(A + B) + sin(A - B)\n- 2 cos A sin B = sin(A + B) - sin(A - B)\n- 2 cos A cos B = cos(A + B) + cos(A - B)\n- 2 sin A sin B = cos(A - B) - cos(A + B)\n\n---..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Sum-to-Product Formulas",
+    "subsection": "",
+    "text": "- sin C + sin D = 2 sin[(C + D)/2] cos[(C - D)/2]\n- sin C - sin D = 2 cos[(C + D)/2] sin[(C - D)/2]\n- cos C + cos D = 2 cos[(C + D)/2] cos[(C - D)/2]\n- cos C - cos D = -2 sin[(C + D)/2] sin[(C - D)/2]..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Allied Angles",
+    "subsection": "Quadrant Rules (ASTC - All Students Take Coffee)",
+    "text": "- Q1 (0° to 90°): All positive\n- Q2 (90° to 180°): Only sin, csc positive\n- Q3 (180° to 270°): Only tan, cot positive\n- Q4 (270° to 360°): Only cos, sec positive..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Allied Angles",
+    "subsection": "Standard Transformations",
+    "text": "- sin(90° - θ) = cos θ, cos(90° - θ) = sin θ\n- sin(90° + θ) = cos θ, cos(90° + θ) = -sin θ\n- sin(180° - θ) = sin θ, cos(180° - θ) = -cos θ\n- sin(180° + θ) = -sin θ, cos(180° + θ) = -cos θ\n- sin(-θ) = ..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Inverse Trigonometric Functions",
+    "subsection": "Principal Value Ranges",
+    "text": "- sin⁻¹x ∈ [-π/2, π/2], domain: [-1, 1]\n- cos⁻¹x ∈ [0, π], domain: [-1, 1]\n- tan⁻¹x ∈ (-π/2, π/2), domain: ℝ\n- cot⁻¹x ∈ (0, π), domain: ℝ\n- sec⁻¹x ∈ [0, π] - {π/2}, domain: |x| ≥ 1\n- csc⁻¹x ∈ [-π/2, π..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Inverse Trigonometric Functions",
+    "subsection": "Important Identities",
+    "text": "- sin⁻¹x + cos⁻¹x = π/2\n- tan⁻¹x + cot⁻¹x = π/2\n- sec⁻¹x + csc⁻¹x = π/2\n- tan⁻¹x + tan⁻¹y = tan⁻¹[(x + y)/(1 - xy)] when xy < 1\n- tan⁻¹x - tan⁻¹y = tan⁻¹[(x - y)/(1 + xy)] when xy > -1\n- 2tan⁻¹x = sin..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Properties of Triangles",
+    "subsection": "Sine Rule",
+    "text": "a/sin A = b/sin B = c/sin C = 2R\nwhere R is circumradius..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Properties of Triangles",
+    "subsection": "Cosine Rule",
+    "text": "- a² = b² + c² - 2bc cos A\n- b² = a² + c² - 2ac cos B\n- c² = a² + b² - 2ab cos C..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Properties of Triangles",
+    "subsection": "Projection Formula",
+    "text": "- a = b cos C + c cos B\n- b = c cos A + a cos C\n- c = a cos B + b cos A..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Properties of Triangles",
+    "subsection": "Area of Triangle",
+    "text": "- Area = (1/2)ab sin C = (1/2)bc sin A = (1/2)ca sin B\n- Area = √[s(s-a)(s-b)(s-c)] (Heron's formula)\nwhere s = (a + b + c)/2..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Properties of Triangles",
+    "subsection": "Half Angle Formulas for Triangle",
+    "text": "- sin(A/2) = √[(s-b)(s-c)/(bc)]\n- cos(A/2) = √[s(s-a)/(bc)]\n- tan(A/2) = √[(s-b)(s-c)/(s(s-a))]..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Properties of Triangles",
+    "subsection": "In-radius (r) and Circumradius (R)",
+    "text": "- r = Area/s = (s-a)tan(A/2)\n- R = a/(2 sin A) = abc/(4 × Area)\n\n---..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Heights and Distances",
+    "subsection": "Angle of Elevation",
+    "text": "Angle made with horizontal when looking UP at an object..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Heights and Distances",
+    "subsection": "Angle of Depression",
+    "text": "Angle made with horizontal when looking DOWN at an object..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Heights and Distances",
+    "subsection": "Important Formulas",
+    "text": "- Height = Distance × tan(angle of elevation)\n- For two angles α and β from same point to object of height h:\n  Distance = h(cot α - cot β)\n\n---..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "Standard Values",
+    "subsection": "",
+    "text": "| θ | 0° | 30° | 45° | 60° | 90° |\n|---|-----|-----|-----|-----|-----|\n| sin θ | 0 | 1/2 | 1/√2 | √3/2 | 1 |\n| cos θ | 1 | √3/2 | 1/√2 | 1/2 | 0 |\n| tan θ | 0 | 1/√3 | 1 | √3 | ∞ |\n\n---..."
+  },
+  {
+    "source": "trigonometry",
+    "section": "JEE-Specific Tips for Trigonometry",
+    "subsection": "",
+    "text": "1. **For compound angles**: Convert everything to sin and cos when stuck\n2. **For equations**: Use factorization and standard substitutions\n3. **For inverse trig**: Always check the principal value ra..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Introduction",
+    "subsection": "",
+    "text": "# Vectors and 3D Geometry - JEE Mathematics Knowledge Base..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Three-Dimensional Coordinate System",
+    "subsection": "Distance Formula",
+    "text": "Distance between P(x₁, y₁, z₁) and Q(x₂, y₂, z₂):\n**d = √[(x₂-x₁)² + (y₂-y₁)² + (z₂-z₁)²]**..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Three-Dimensional Coordinate System",
+    "subsection": "Section Formula",
+    "text": "Point dividing PQ in ratio m:n:\n**((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n), (mz₂+nz₁)/(m+n))**..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Three-Dimensional Coordinate System",
+    "subsection": "Direction Cosines",
+    "text": "For direction making angles α, β, γ with axes:\n- l = cos α, m = cos β, n = cos γ\n- **l² + m² + n² = 1**..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Three-Dimensional Coordinate System",
+    "subsection": "Direction Ratios",
+    "text": "Any numbers a, b, c proportional to l, m, n:\nl = a/√(a²+b²+c²), etc...."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Three-Dimensional Coordinate System",
+    "subsection": "Direction Cosines from Two Points",
+    "text": "l = (x₂-x₁)/d, m = (y₂-y₁)/d, n = (z₂-z₁)/d\n\n---..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Straight Lines in 3D",
+    "subsection": "Equation Forms",
+    "text": "**Symmetric Form** (through point (x₁,y₁,z₁) with DR a,b,c):\n**(x-x₁)/a = (y-y₁)/b = (z-z₁)/c**\n\n**Vector Form** (through point **a** in direction **b**):\n**r = a + λb**\n\n**Parametric Form**:\nx = x₁ +..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Straight Lines in 3D",
+    "subsection": "Angle Between Lines",
+    "text": "If DRs are (a₁,b₁,c₁) and (a₂,b₂,c₂):\n**cos θ = (a₁a₂+b₁b₂+c₁c₂) / (√(a₁²+b₁²+c₁²) × √(a₂²+b₂²+c₂²))**..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Straight Lines in 3D",
+    "subsection": "Conditions",
+    "text": "- **Parallel**: a₁/a₂ = b₁/b₂ = c₁/c₂\n- **Perpendicular**: a₁a₂ + b₁b₂ + c₁c₂ = 0..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Straight Lines in 3D",
+    "subsection": "Skew Lines",
+    "text": "Lines that are neither parallel nor intersecting...."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Straight Lines in 3D",
+    "subsection": "Shortest Distance Between Skew Lines",
+    "text": "For lines r = a₁ + λb₁ and r = a₂ + μb₂:\n**d = |(a₂-a₁) · (b₁×b₂)| / |b₁×b₂|**..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Straight Lines in 3D",
+    "subsection": "Shortest Distance Between Parallel Lines",
+    "text": "**d = |b × (a₂-a₁)| / |b|**\nwhere b is common direction vector\n\n---..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Planes in 3D",
+    "subsection": "Equation Forms",
+    "text": "**General Form**:\n**ax + by + cz + d = 0**\nNormal: (a, b, c)\n\n**Normal Form**:\n**lx + my + nz = p**\nwhere (l,m,n) are DCs of normal, p = perpendicular distance from origin\n\n**Intercept Form**:\n**x/a +..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Planes in 3D",
+    "subsection": "Distance from Point to Plane",
+    "text": "From (x₁,y₁,z₁) to ax+by+cz+d=0:\n**D = |ax₁+by₁+cz₁+d| / √(a²+b²+c²)**..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Planes in 3D",
+    "subsection": "Angle Between Planes",
+    "text": "**cos θ = |a₁a₂+b₁b₂+c₁c₂| / (√(a₁²+b₁²+c₁²) × √(a₂²+b₂²+c₂²))**..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Planes in 3D",
+    "subsection": "Conditions",
+    "text": "- **Parallel**: a₁/a₂ = b₁/b₂ = c₁/c₂\n- **Perpendicular**: a₁a₂ + b₁b₂ + c₁c₂ = 0..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Planes in 3D",
+    "subsection": "Family of Planes",
+    "text": "Plane through intersection of P₁=0 and P₂=0:\n**P₁ + λP₂ = 0**\n\n---..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Line and Plane",
+    "subsection": "Angle Between Line and Plane",
+    "text": "Line with DR (a,b,c), plane ax'+by'+cz'+d=0:\n**sin θ = |aa'+bb'+cc'| / (√(a²+b²+c²) × √(a'²+b'²+c'²))**..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Line and Plane",
+    "subsection": "Conditions",
+    "text": "- Line parallel to plane: aa' + bb' + cc' = 0\n- Line perpendicular to plane: a/a' = b/b' = c/c'..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Line and Plane",
+    "subsection": "Line in Plane",
+    "text": "Line lies in plane if:\n1. Any point of line satisfies plane equation\n2. Line direction is perpendicular to plane normal..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Line and Plane",
+    "subsection": "Intersection of Line and Plane",
+    "text": "Substitute parametric equations in plane equation, solve for λ\n\n---..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Sphere",
+    "subsection": "Equation",
+    "text": "Center (h,k,l), radius r:\n**(x-h)² + (y-k)² + (z-l)² = r²**..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Sphere",
+    "subsection": "General Form",
+    "text": "**x² + y² + z² + 2ux + 2vy + 2wz + d = 0**\n- Center: (-u, -v, -w)\n- Radius: √(u² + v² + w² - d)..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Sphere",
+    "subsection": "Tangent Plane",
+    "text": "At (x₁,y₁,z₁) on sphere x²+y²+z²=r²:\n**xx₁ + yy₁ + zz₁ = r²**\n\n---..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Coplanarity",
+    "subsection": "Four Points Coplanar",
+    "text": "Points A, B, C, D are coplanar if:\n**[AB AC AD] = 0** (scalar triple product)\n\nOr determinant form:\n|x₂-x₁ y₂-y₁ z₂-z₁|\n|x₃-x₁ y₃-y₁ z₃-z₁| = 0\n|x₄-x₁ y₄-y₁ z₄-z₁|..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Coplanarity",
+    "subsection": "Two Lines Coplanar",
+    "text": "Lines r=a+λb and r=c+μd are coplanar if:\n**[c-a, b, d] = 0**\n\n---..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Projection",
+    "subsection": "Projection of Point on Line",
+    "text": "Foot of perpendicular from (x₀,y₀,z₀) to line:\n1. Write general point on line\n2. Apply perpendicularity condition..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Projection",
+    "subsection": "Projection of Point on Plane",
+    "text": "Foot of perpendicular from (x₀,y₀,z₀) to plane:\n1. Write line through point perpendicular to plane\n2. Find intersection with plane..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Projection",
+    "subsection": "Image of Point",
+    "text": "Image of A in plane = 2(foot) - A\n\n---..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Tetrahedron",
+    "subsection": "Volume",
+    "text": "For vertices A, B, C, D:\n**V = (1/6)|[AB AC AD]|**..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "Tetrahedron",
+    "subsection": "Centroid",
+    "text": "G = (A + B + C + D)/4\n\n---..."
+  },
+  {
+    "source": "vectors_3d",
+    "section": "JEE-Specific Tips for 3D Geometry",
+    "subsection": "",
+    "text": "1. **For shortest distance**: Use vector formula with cross product\n2. **For coplanarity**: Scalar triple product = 0\n3. **For foot of perpendicular**: Parametric point + perpendicularity\n4. **For ima..."
+  }
+]
